@@ -85,6 +85,9 @@
     background: var(--light-grey) !important;
 }
 
+/* .homepage image */
+
+
 @media (min-width: 576px){
     .hero {
         background: var(--light-grey) !important;}

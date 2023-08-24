@@ -7,8 +7,7 @@
 #     preload:
 #       - base/main
 
-# theme-css:
-#   filter: cssrewrite
-#   output: ckanext-theme/%(version)s-theme.css
-#   contents:
-#     - css/theme.css
+theme-css:
+  contents:
+    - css/style.css
+    - css/global.css

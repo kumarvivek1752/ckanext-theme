@@ -1,12 +1,19 @@
 {% ckan_extends %}
 
+
+{#
+  
+  
+  <link rel="stylesheet" href="/global.css" />
+  <link rel="stylesheet" href="/style.css" />
+  
+  #}
+
 {%- block links -%}
   {{ super() }}
 {% endblock links %}
 
 {% block styles %}
   {{ super() }}
-  <link rel="stylesheet" href="/global.css" />
-  <link rel="stylesheet" href="/style.css" />
-  
-{% endblock styles %}
+  {% asset 'theme/theme-css' %}
+{% endblock %}
