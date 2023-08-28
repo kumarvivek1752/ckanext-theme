@@ -142,6 +142,13 @@
     background-color: var(--grey) !important;
 }
 
+.control-order-by > label{
+    color: var(--grey) !important;
+}
+.list-unstyled > li>a{
+    color: white !important;
+}
+
 /* Resposive */
 @media (max-width: 576px){
     /* Extra Small Devices: Phones (<576px) */
@@ -182,6 +189,6 @@
 @media (min-width: 1400px){
 /* Extra extra large: Desktops (≥1400px) */
 .un-branding{
-    padding-left:9vw  ;
+    padding-left:4vw  ;
 }
 }
