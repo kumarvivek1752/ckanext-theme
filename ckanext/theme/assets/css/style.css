@@ -70,7 +70,6 @@ align-items: center;
     font-weight: regular;
 }
 
-<<<<<<< HEAD
 .topnav {
     overflow: hidden;
     background-color: var(--grey);
@@ -98,79 +97,21 @@ align-items: center;
 
 
 
-=======
-.ckan--logo {
-    min-width: 30vw;
-}
-
-.ckan--logo>img {
-    width: 20px;
-    height: auto;
-}
-
-.sub-header {
-    background-color: var(--grey);
-
-}
-
-.ckan--button>a {
-    text-decoration: none;
-    color: var(--light-grey);
-    font-family: var(--roboto-body);
-    font-size: var(--roboto-headings-size);
-    font-weight: regular;
-    padding: var(--padding-3xs);
-}
-
-.un-branding>img {
-    width: 200px;
-    height: 100px;
-}
-
-.vertical {
-    border-left: 3px solid var(--grey);
-    height: 60px;
-}
-
-.un-quote {
-    display: flex;
-    font-family: var(--roboto-body);
-    font-size: 18px;
-    font-weight: regular;
-    color: var(--color-black);
-    margin-bottom: 0;
-    align-items: center;
-}
-
-
->>>>>>> main
 .un-nav {
     background-color: var(--grey);
 }
 
-<<<<<<< HEAD
 .un-maincontent {
     min-height: 60vh;
 }
 
 .un-footer {
-=======
-.maincontent {
-    min-height: 60vh;
-}
-
-.footer {
->>>>>>> main
     background-color: var(--grey);
     min-height: 12rem;
 
 }
 
-<<<<<<< HEAD
 /* .un-footer--top {
-=======
-.footer--top {
->>>>>>> main
     text-decoration: none;
     color: var(--light-grey);
     font-family: Roboto;
@@ -180,31 +121,18 @@ align-items: center;
     padding: var(--padding-3xs);
 }
 
-<<<<<<< HEAD
 .un-footer--top:hover {
     color: var(--light-grey);
 } */
 
 .un-footer--hr {
     border: 0.01rem solid var(--light-grey);
-=======
-.footer--top:hover {
-    color: var(--light-grey);
-}
-
-.footer--hr {
-    border: 1.2px solid var(--light-grey);
->>>>>>> main
     margin-top: 0;
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
-<<<<<<< HEAD
 .un-footer-blue-line {
-=======
-.footer-blue-line {
->>>>>>> main
     border: 4px solid var(--blue);
     margin-bottom: 0;
     margin-top: 0;
@@ -852,9 +780,3 @@ align-items: center;
     background: var(--grey) !important;
 }
 
-<<<<<<< HEAD
-=======
-.homepage .hero {
-    background: var(--light-grey) !important;
-}
->>>>>>> main
