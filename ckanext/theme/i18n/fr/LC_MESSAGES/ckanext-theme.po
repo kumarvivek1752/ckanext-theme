@@ -1,0 +1,187 @@
+# French translations for ckanext-theme.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the ckanext-theme
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-theme 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-09-10 08:32+0000\n"
+"PO-Revision-Date: 2023-09-10 10:43+0530\n"
+"Last-Translator: \n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ckanext/theme/logic/validators.py:6
+msgid "Required"
+msgstr "Obligatoire"
+
+#: ckanext/theme/templates/header.html:13
+msgid "Sysadmin settings"
+msgstr "Paramètres de l'administrateur système"
+
+#: ckanext/theme/templates/header.html:15
+msgid "Admin"
+msgstr "Administrateur"
+
+#: ckanext/theme/templates/header.html:22
+msgid "View profile"
+msgstr "Voir le profil"
+
+#: ckanext/theme/templates/header.html:30
+msgid " View dashboard"
+msgstr " Afficher le tableau de bord"
+
+#: ckanext/theme/templates/header.html:32
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: ckanext/theme/templates/header.html:38
+#: ckanext/theme/templates/header.html:40
+msgid "Profile settings"
+msgstr "Paramètres du profil"
+
+#: ckanext/theme/templates/header.html:45
+#: ckanext/theme/templates/header.html:47
+msgid "Log out"
+msgstr "Se déconnecter"
+
+#: ckanext/theme/templates/header.html:54
+msgid "Account"
+msgstr "Compte"
+
+#: ckanext/theme/templates/header.html:57
+msgid "Log in"
+msgstr "Connectez-vous"
+
+#: ckanext/theme/templates/header.html:59
+msgid "Register"
+msgstr "S'inscrire"
+
+#: ckanext/theme/templates/header.html:120
+msgid "Peace, dignity and equality"
+msgstr "Paix, dignité et égalité"
+
+#: ckanext/theme/templates/header.html:120
+msgid "on a healthy planet"
+msgstr "sur une planète saine"
+
+#: ckanext/theme/templates/header.html:127
+#: ckanext/theme/templates/home/index.html:20
+#: ckanext/theme/templates/home/index.html:123
+msgid "Datasets"
+msgstr "Datasets"
+
+#: ckanext/theme/templates/header.html:129
+#: ckanext/theme/templates/home/index.html:127
+msgid "Organizations"
+msgstr "Organisations"
+
+#: ckanext/theme/templates/header.html:131
+msgid "Groups"
+msgstr "Groupe"
+
+#: ckanext/theme/templates/header.html:133
+msgid "About"
+msgstr "Environ"
+
+#: ckanext/theme/templates/home/index.html:3
+msgid "E.g. environment"
+msgstr "Par exemple, l\\'environnement"
+
+#: ckanext/theme/templates/home/index.html:11
+msgid "Find UN Open"
+msgstr "Trouver l'ONU ouverte"
+
+#: ckanext/theme/templates/home/index.html:11
+msgid "Government data"
+msgstr "Données gouvernementales"
+
+#: ckanext/theme/templates/home/index.html:12
+msgid "Learn more about UN"
+msgstr "En savoir plus sur l'ONU"
+
+#: ckanext/theme/templates/home/index.html:25
+#: ckanext/theme/templates/home/index.html:27
+msgid "Search datasets"
+msgstr "Rechercher des jeux de données"
+
+#: ckanext/theme/templates/home/index.html:43
+msgid "Access the data catalogue using the API"
+msgstr "Accédez au catalogue de données à l’aide de l’API"
+
+#: ckanext/theme/templates/home/index.html:56
+msgid "Most Viewed Datasets"
+msgstr "Ensembles de données"
+
+#: ckanext/theme/templates/home/index.html:71
+msgid "Recently Added Datasets"
+msgstr "Ensembles de données récemment ajoutés"
+
+#: ckanext/theme/templates/home/index.html:86
+msgid "Datasets by Organisation"
+msgstr "Ensembles de données par organisation"
+
+#: ckanext/theme/templates/home/index.html:107
+msgid "Geospatial"
+msgstr "Géospatial"
+
+#: ckanext/theme/templates/home/index.html:131
+msgid "Categories"
+msgstr "Catégories"
+
+#: ckanext/theme/templates/home/index.html:135
+msgid "Showcases"
+msgstr "Vitrines"
+
+#: ckanext/theme/templates/home/index.html:140
+msgid "A joint project of the Confederation and the cantons"
+msgstr "Un projet commun de la Confédération et des cantons"
+
+#: ckanext/theme/templates/home/index.html:141
+msgid ""
+"The opendata.swiss portal is a joint project of the Confederation, "
+"cantons, communes and <br> other organizations with a mandate from the "
+"state. It makes open government data available <br> to the general public"
+" in a central catalogue.opendata.swiss is operated by the Federal <br> "
+"Statistical Office."
+msgstr ""
+"Le portail opendata.swiss est un projet commun de la Confédération, des "
+"cantons, des <br>communes et d'autres organismes mandatés <br>par l'Etat."
+
+#: ckanext/theme/templates/home/index.html:161
+msgid "Get involved"
+msgstr "Impliquez vous"
+
+#: ckanext/theme/templates/home/index.html:164
+msgid "Learn to publish data"
+msgstr "Apprenez à publier"
+
+#: ckanext/theme/templates/home/index.html:165
+msgid "Share Your Showcase"
+msgstr "Partagez votre vitrine"
+
+#: ckanext/theme/templates/home/snippets/promoted.html:8
+msgid "Welcome to CKAN nnnn"
+msgstr "Bienvenue à CKAN nnnn"
+
+#: ckanext/theme/templates/home/snippets/promoted.html:10
+msgid ""
+"This is a nice introductory paragraph about CKAN or the site in general. "
+"We don't have any copy to go here yet but soon we will"
+msgstr ""
+"Ceci est un joli paragraphe d'introduction sur CKAN ou le site en "
+"général. Nous n'avons pas encore de copie pour aller ici, mais bientôt "
+"nous allons"
+
+#: ckanext/theme/templates/home/snippets/promoted.html:19
+msgid "This is a featured section"
+msgstr "Ceci est une section en vedette"
+

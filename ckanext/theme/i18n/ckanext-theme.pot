@@ -1,0 +1,177 @@
+# Translations template for ckanext-theme.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the ckanext-theme project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-theme 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-09-10 08:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ckanext/theme/logic/validators.py:6
+msgid "Required"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:13
+msgid "Sysadmin settings"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:15
+msgid "Admin"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:22
+msgid "View profile"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:30
+msgid " View dashboard"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:32
+msgid "Dashboard"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:38 ckanext/theme/templates/header.html:40
+msgid "Profile settings"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:45 ckanext/theme/templates/header.html:47
+msgid "Log out"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:54
+msgid "Account"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:57
+msgid "Log in"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:59
+msgid "Register"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:120
+msgid "Peace, dignity and equality"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:120
+msgid "on a healthy planet"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:127
+#: ckanext/theme/templates/home/index.html:20
+#: ckanext/theme/templates/home/index.html:123
+msgid "Datasets"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:129
+#: ckanext/theme/templates/home/index.html:127
+msgid "Organizations"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:131
+msgid "Groups"
+msgstr ""
+
+#: ckanext/theme/templates/header.html:133
+msgid "About"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:3
+msgid "E.g. environment"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:11
+msgid "Find UN Open"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:11
+msgid "Government data"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:12
+msgid "Learn more about UN"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:25
+#: ckanext/theme/templates/home/index.html:27
+msgid "Search datasets"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:43
+msgid "Access the data catalogue using the API"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:56
+msgid "Most Viewed Datasets"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:71
+msgid "Recently Added Datasets"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:86
+msgid "Datasets by Organisation"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:107
+msgid "Geospatial"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:131
+msgid "Categories"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:135
+msgid "Showcases"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:140
+msgid "A joint project of the Confederation and the cantons"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:141
+msgid ""
+"The opendata.swiss portal is a joint project of the Confederation, cantons, "
+"communes and <br> other organizations with a mandate from the state. It makes"
+" open government data available <br> to the general public in a central "
+"catalogue.opendata.swiss is operated by the Federal <br> Statistical Office."
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:161
+msgid "Get involved"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:164
+msgid "Learn to publish data"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:165
+msgid "Share Your Showcase"
+msgstr ""
+
+#: ckanext/theme/templates/home/snippets/promoted.html:8
+msgid "Welcome to CKAN nnnn"
+msgstr ""
+
+#: ckanext/theme/templates/home/snippets/promoted.html:10
+msgid ""
+"This is a nice introductory paragraph about CKAN or the site in general. We "
+"don't have any copy to go here yet but soon we will"
+msgstr ""
+
+#: ckanext/theme/templates/home/snippets/promoted.html:19
+msgid "This is a featured section"
+msgstr ""
+

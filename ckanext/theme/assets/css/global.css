@@ -4,17 +4,28 @@ body {
     margin: 0;
     line-height: normal;
     padding: 0;
+<<<<<<< HEAD
+    background-color: var(--light-grey) !important;
+=======
     background-color: var(--white);
+>>>>>>> main
 
 }
 textarea:focus, input:focus{
     outline: none;
 }
 
+<<<<<<< HEAD
+/* html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+} */
+=======
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+>>>>>>> main
 :root {
     margin: 0;
     padding: 0;
@@ -29,6 +40,8 @@ html, body {
     --light-grey: #f2f2f2;
     --blue: #009edb;
     --grey: #4d4d4d;
+    --fade-grey: rgb(95, 94, 94);
+    --active-grey: rgb(95, 94, 94);
     --color-black: #000;
     --green: #009688;
     --white: #fff;

@@ -1,0 +1,194 @@
+# Spanish translations for ckanext-theme.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the ckanext-theme
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-theme 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-09-10 08:32+0000\n"
+"PO-Revision-Date: 2023-09-08 04:55+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ckanext/theme/logic/validators.py:6
+msgid "Required"
+msgstr "Requerido"
+
+#: ckanext/theme/templates/header.html:13
+msgid "Sysadmin settings"
+msgstr "Configuración del administrador del sistema"
+
+#: ckanext/theme/templates/header.html:15
+msgid "Admin"
+msgstr "Administrador"
+
+#: ckanext/theme/templates/header.html:22
+msgid "View profile"
+msgstr "Ver perfil"
+
+#: ckanext/theme/templates/header.html:30
+msgid " View dashboard"
+msgstr "Ver panel"
+
+#: ckanext/theme/templates/header.html:32
+msgid "Dashboard"
+msgstr "Salpicadero"
+
+#: ckanext/theme/templates/header.html:38
+#: ckanext/theme/templates/header.html:40
+msgid "Profile settings"
+msgstr "Configuración del perfil"
+
+#: ckanext/theme/templates/header.html:45
+#: ckanext/theme/templates/header.html:47
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+#: ckanext/theme/templates/header.html:54
+msgid "Account"
+msgstr "Cuenta"
+
+#: ckanext/theme/templates/header.html:57
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: ckanext/theme/templates/header.html:59
+msgid "Register"
+msgstr "Registrarse"
+
+#: ckanext/theme/templates/header.html:120
+msgid "Peace, dignity and equality"
+msgstr "Paz, dignidad e igualdad"
+
+#: ckanext/theme/templates/header.html:120
+msgid "on a healthy planet"
+msgstr "en un planeta sano"
+
+#: ckanext/theme/templates/header.html:127
+#: ckanext/theme/templates/home/index.html:20
+#: ckanext/theme/templates/home/index.html:123
+msgid "Datasets"
+msgstr "Conjuntos de datos"
+
+#: ckanext/theme/templates/header.html:129
+#: ckanext/theme/templates/home/index.html:127
+msgid "Organizations"
+msgstr "Organizaciones"
+
+#: ckanext/theme/templates/header.html:131
+msgid "Groups"
+msgstr "Grupos"
+
+#: ckanext/theme/templates/header.html:133
+msgid "About"
+msgstr "Acerca de"
+
+#: ckanext/theme/templates/home/index.html:3
+msgid "E.g. environment"
+msgstr "Por ej. "
+
+#: ckanext/theme/templates/home/index.html:11
+msgid "Find UN Open"
+msgstr "Encuentra el Abierto de la ONU"
+
+#: ckanext/theme/templates/home/index.html:11
+msgid "Government data"
+msgstr "Datos gubernamentales"
+
+#: ckanext/theme/templates/home/index.html:12
+msgid "Learn more about UN"
+msgstr "Más información sobre la ONU"
+
+#: ckanext/theme/templates/home/index.html:25
+#: ckanext/theme/templates/home/index.html:27
+msgid "Search datasets"
+msgstr "Buscar conjuntos de datos"
+
+#: ckanext/theme/templates/home/index.html:43
+msgid "Access the data catalogue using the API"
+msgstr "Acceder al catálogo de datos usando la API"
+
+#: ckanext/theme/templates/home/index.html:56
+msgid "Most Viewed Datasets"
+msgstr "Conjuntos de datos más vistos"
+
+#: ckanext/theme/templates/home/index.html:71
+msgid "Recently Added Datasets"
+msgstr "Conjuntos de datos agregados recientemente"
+
+#: ckanext/theme/templates/home/index.html:86
+msgid "Datasets by Organisation"
+msgstr "Conjuntos de datos por organización"
+
+#: ckanext/theme/templates/home/index.html:107
+msgid "Geospatial"
+msgstr "Geoespacial"
+
+#: ckanext/theme/templates/home/index.html:131
+msgid "Categories"
+msgstr "Categorías"
+
+#: ckanext/theme/templates/home/index.html:135
+msgid "Showcases"
+msgstr "Vitrinas"
+
+#: ckanext/theme/templates/home/index.html:140
+msgid "A joint project of the Confederation and the cantons"
+msgstr "Un proyecto conjunto de la Confederación y los cantones"
+
+#: ckanext/theme/templates/home/index.html:141
+msgid ""
+"The opendata.swiss portal is a joint project of the Confederation, "
+"cantons, communes and <br> other organizations with a mandate from the "
+"state. It makes open government data available <br> to the general public"
+" in a central catalogue.opendata.swiss is operated by the Federal <br> "
+"Statistical Office."
+msgstr "El portal opendata.swiss es un proyecto conjunto de la Confederación, los cantones, los municipios y <br> otras organizaciones con mandato del Estado. "
+
+#: ckanext/theme/templates/home/index.html:161
+msgid "Get involved"
+msgstr "Involúcrate"
+
+#: ckanext/theme/templates/home/index.html:164
+msgid "Learn to publish data"
+msgstr "Aprende a publicar datos"
+
+#: ckanext/theme/templates/home/index.html:165
+msgid "Share Your Showcase"
+msgstr "Comparte tu escaparate"
+
+#: ckanext/theme/templates/home/snippets/promoted.html:8
+msgid "Welcome to CKAN nnnn"
+msgstr "Bienvenido a CKAN nnnn"
+
+#: ckanext/theme/templates/home/snippets/promoted.html:10
+msgid ""
+"This is a nice introductory paragraph about CKAN or the site in general. "
+"We don't have any copy to go here yet but soon we will"
+msgstr "Este es un buen párrafo introductorio sobre CKAN o el sitio en general. "
+
+#: ckanext/theme/templates/home/snippets/promoted.html:19
+msgid "This is a featured section"
+msgstr "Esta es una sección destacada"
+
+#~ msgid ""
+#~ "The opendata.swiss portal is a joint "
+#~ "project of the Confederation, cantons, "
+#~ "communes and other organizations with a"
+#~ " mandate from the state. It makes "
+#~ "open government data available to the"
+#~ " general public in a central "
+#~ "catalogue.opendata.swiss is operated by the"
+#~ " Federal Statistical Office."
+#~ msgstr ""
+
+
