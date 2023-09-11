@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 body {
     margin: 0;
     line-height: normal;
     padding: 0;
+    background-color: var(--light-grey) !important;
+
+}
+textarea:focus, input:focus{
+    outline: none;
 }
 
+/* html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+} */
 :root {
     margin: 0;
     padding: 0;
@@ -18,7 +29,11 @@ body {
     --light-grey: #f2f2f2;
     --blue: #009edb;
     --grey: #4d4d4d;
+    --fade-grey: rgb(95, 94, 94);
+    --active-grey: rgb(95, 94, 94);
     --color-black: #000;
+    --green: #009688;
+    --white: #fff;
 
     /* Paddings */
     --padding-3xs: 10px;

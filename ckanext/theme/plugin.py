@@ -1,6 +1,6 @@
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
-
+from ckan.lib.plugins import DefaultTranslation
 
 # import ckanext.theme.cli as cli
 # import ckanext.theme.helpers as helpers
@@ -10,7 +10,8 @@ import ckan.plugins.toolkit as toolkit
 # )
 
 
-class ThemePlugin(plugins.SingletonPlugin):
+class ThemePlugin(plugins.SingletonPlugin,DefaultTranslation):
+    plugins.implements(plugins.ITranslation)
     plugins.implements(plugins.IConfigurer)
     
     # plugins.implements(plugins.IAuthFunctions)
@@ -27,6 +28,9 @@ class ThemePlugin(plugins.SingletonPlugin):
         toolkit.add_template_directory(config_, "templates")
         toolkit.add_public_directory(config_, "public")
         toolkit.add_resource("assets", "theme")
+
+
+
 
     
     # IAuthFunctions
