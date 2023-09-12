@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-09-12 11:32+0000\n"
+"POT-Creation-Date: 2023-09-12 15:13+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -78,8 +78,8 @@ msgid "on a healthy planet"
 msgstr "en un planeta sano"
 
 #: ckanext/theme/templates/header.html:127
-#: ckanext/theme/templates/home/index.html:20
-#: ckanext/theme/templates/home/index.html:124
+#: ckanext/theme/templates/home/index.html:21
+#: ckanext/theme/templates/home/index.html:125
 msgid "Datasets"
 msgstr "Conjuntos de datos"
 
@@ -99,78 +99,76 @@ msgstr "Acerca de"
 msgid "E.g. environment"
 msgstr "Por ej. "
 
-#: ckanext/theme/templates/home/index.html:11
-msgid "Find UN"
-msgstr "Encontrar ONU"
-
-#: ckanext/theme/templates/home/index.html:11
-msgid "Government data"
-msgstr "Datos gubernamentales"
-
 #: ckanext/theme/templates/home/index.html:12
+msgid "Explore UN <br> Data Catalogue"
+msgstr "Explore el catálogo <br>de la ONU"
+
+#: ckanext/theme/templates/home/index.html:13
 msgid "Learn more about UN"
 msgstr "Más información sobre la ONU"
 
-#: ckanext/theme/templates/home/index.html:25
-#: ckanext/theme/templates/home/index.html:27
+#: ckanext/theme/templates/home/index.html:26
+#: ckanext/theme/templates/home/index.html:28
 msgid "Search datasets"
 msgstr "Buscar conjuntos de datos"
 
-#: ckanext/theme/templates/home/index.html:44
+#: ckanext/theme/templates/home/index.html:45
 msgid "Access the data catalogue using the API"
 msgstr "Acceder al catálogo de datos usando la API"
 
-#: ckanext/theme/templates/home/index.html:57
+#: ckanext/theme/templates/home/index.html:58
 msgid "Most Viewed Datasets"
 msgstr "Conjuntos de datos más vistos"
 
-#: ckanext/theme/templates/home/index.html:72
+#: ckanext/theme/templates/home/index.html:73
 msgid "Recently Added Datasets"
 msgstr "Conjuntos de datos agregados recientemente"
 
-#: ckanext/theme/templates/home/index.html:87
+#: ckanext/theme/templates/home/index.html:88
 msgid "Datasets by Organisation"
 msgstr "Conjuntos de datos por organización"
 
-#: ckanext/theme/templates/home/index.html:108
+#: ckanext/theme/templates/home/index.html:109
 msgid "Geospatial"
 msgstr "Geoespacial"
 
 # | msgid "Organizations"
-#: ckanext/theme/templates/home/index.html:128
+#: ckanext/theme/templates/home/index.html:129
 #, fuzzy
 msgid "orginatzation"
 msgstr "Organizaciones"
 
-#: ckanext/theme/templates/home/index.html:132
+#: ckanext/theme/templates/home/index.html:133
 msgid "Categories"
 msgstr "Categorías"
 
-#: ckanext/theme/templates/home/index.html:136
+#: ckanext/theme/templates/home/index.html:137
 msgid "Showcases"
 msgstr "Vitrinas"
 
-#: ckanext/theme/templates/home/index.html:141
+#: ckanext/theme/templates/home/index.html:142
 msgid "A joint project of the Confederation and the cantons"
 msgstr "Un proyecto conjunto de la Confederación y los cantones"
 
-#: ckanext/theme/templates/home/index.html:142
+#: ckanext/theme/templates/home/index.html:143
 msgid ""
 "The  portal is a joint project of the Confederation, cantons, communes "
 "and <br> other organizations with a mandate from the state. It makes open"
 " government data available <br> to the general public in a central "
 "catalogue is operated by the Federal <br> Statistical Office."
-msgstr "El portal es un proyecto conjunto de la Confederación, los cantones, los municipios y <br> otras organizaciones con mandato del Estado. "
+msgstr ""
+"El portal es un proyecto conjunto de la Confederación, los cantones, los "
+"municipios y <br> otras organizaciones con mandato del Estado. "
 
-#: ckanext/theme/templates/home/index.html:163
+#: ckanext/theme/templates/home/index.html:164
 msgid "Get involved"
 msgstr "Involúcrate"
 
-#: ckanext/theme/templates/home/index.html:166
+#: ckanext/theme/templates/home/index.html:167
 msgid "Learn to publish data"
 msgstr "Aprende a publicar datos"
 
-#: ckanext/theme/templates/home/index.html:167
+#: ckanext/theme/templates/home/index.html:168
 msgid "Share Your Showcase"
 msgstr "Comparte tu escaparate"
 
@@ -215,5 +213,12 @@ msgstr "Esta es una sección destacada"
 #~ "El portal opendata.swiss es un proyecto"
 #~ " conjunto de la Confederación, los "
 #~ "cantones, los municipios y <br> otras"
-#~ " organizaciones con mandato del Estado. \n"
+#~ " organizaciones con mandato del Estado."
+#~ " \n"
+
+#~ msgid "Find UN"
+#~ msgstr "Encontrar ONU"
+
+#~ msgid "Government data"
+#~ msgstr "Datos gubernamentales"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-09-12 11:32+0000\n"
+"POT-Creation-Date: 2023-09-12 15:13+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -78,8 +78,8 @@ msgid "on a healthy planet"
 msgstr "在一个健康的星球上"
 
 #: ckanext/theme/templates/header.html:127
-#: ckanext/theme/templates/home/index.html:20
-#: ckanext/theme/templates/home/index.html:124
+#: ckanext/theme/templates/home/index.html:21
+#: ckanext/theme/templates/home/index.html:125
 msgid "Datasets"
 msgstr "数据集"
 
@@ -99,63 +99,60 @@ msgstr "关于"
 msgid "E.g. environment"
 msgstr "例如"
 
-#: ckanext/theme/templates/home/index.html:11
-msgid "Find UN"
-msgstr "查找联合国"
-
-#: ckanext/theme/templates/home/index.html:11
-msgid "Government data"
-msgstr "政府数据"
-
 #: ckanext/theme/templates/home/index.html:12
+msgid "Explore UN <br> Data Catalogue"
+msgstr "探索联合国<br>数据目录"
+
+
+#: ckanext/theme/templates/home/index.html:13
 msgid "Learn more about UN"
 msgstr "了解更多关于联合国的信息"
 
 # | msgid "Datasets"
-#: ckanext/theme/templates/home/index.html:25
-#: ckanext/theme/templates/home/index.html:27
+#: ckanext/theme/templates/home/index.html:26
+#: ckanext/theme/templates/home/index.html:28
 msgid "Search datasets"
 msgstr "数据集"
 
-#: ckanext/theme/templates/home/index.html:44
+#: ckanext/theme/templates/home/index.html:45
 msgid "Access the data catalogue using the API"
 msgstr "使用API​​访问数据目录"
 
-#: ckanext/theme/templates/home/index.html:57
+#: ckanext/theme/templates/home/index.html:58
 msgid "Most Viewed Datasets"
 msgstr "浏览次数最多的数据集"
 
-#: ckanext/theme/templates/home/index.html:72
+#: ckanext/theme/templates/home/index.html:73
 msgid "Recently Added Datasets"
 msgstr "最近添加的数据集"
 
-#: ckanext/theme/templates/home/index.html:87
+#: ckanext/theme/templates/home/index.html:88
 msgid "Datasets by Organisation"
 msgstr "按组织划分的数据集"
 
-#: ckanext/theme/templates/home/index.html:108
+#: ckanext/theme/templates/home/index.html:109
 msgid "Geospatial"
 msgstr "地理空间"
 
 # | msgid "Organizations"
-#: ckanext/theme/templates/home/index.html:128
+#: ckanext/theme/templates/home/index.html:129
 #, fuzzy
 msgid "orginatzation"
 msgstr "组织"
 
-#: ckanext/theme/templates/home/index.html:132
+#: ckanext/theme/templates/home/index.html:133
 msgid "Categories"
 msgstr "类别"
 
-#: ckanext/theme/templates/home/index.html:136
+#: ckanext/theme/templates/home/index.html:137
 msgid "Showcases"
 msgstr "展示柜"
 
-#: ckanext/theme/templates/home/index.html:141
+#: ckanext/theme/templates/home/index.html:142
 msgid "A joint project of the Confederation and the cantons"
 msgstr "联邦和各州的联合项目"
 
-#: ckanext/theme/templates/home/index.html:142
+#: ckanext/theme/templates/home/index.html:143
 msgid ""
 "The  portal is a joint project of the Confederation, cantons, communes "
 "and <br> other organizations with a mandate from the state. It makes open"
@@ -163,15 +160,15 @@ msgid ""
 "catalogue is operated by the Federal <br> Statistical Office."
 msgstr "该门户网站是联邦、各州、<br>公社和其他受国家授权的组织的联合项目。"
 
-#: ckanext/theme/templates/home/index.html:163
+#: ckanext/theme/templates/home/index.html:164
 msgid "Get involved"
 msgstr "参与其中"
 
-#: ckanext/theme/templates/home/index.html:166
+#: ckanext/theme/templates/home/index.html:167
 msgid "Learn to publish data"
 msgstr "学会发布数据"
 
-#: ckanext/theme/templates/home/index.html:167
+#: ckanext/theme/templates/home/index.html:168
 msgid "Share Your Showcase"
 msgstr "分享你的展示"
 
@@ -213,4 +210,10 @@ msgstr "这是一个特色部分"
 #~ " central catalogue.opendata.swiss is operated "
 #~ "by the Federal <br> Statistical Office."
 #~ msgstr "门户是联邦、各州、公社和其他受国家授权的组织的联合项目。"
+
+#~ msgid "Find UN"
+#~ msgstr "查找联合国"
+
+#~ msgid "Government data"
+#~ msgstr "政府数据"
 

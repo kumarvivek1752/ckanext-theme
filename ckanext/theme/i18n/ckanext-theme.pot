@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-09-12 11:32+0000\n"
+"POT-Creation-Date: 2023-09-12 15:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,8 +74,8 @@ msgid "on a healthy planet"
 msgstr ""
 
 #: ckanext/theme/templates/header.html:127
-#: ckanext/theme/templates/home/index.html:20
-#: ckanext/theme/templates/home/index.html:124
+#: ckanext/theme/templates/home/index.html:21
+#: ckanext/theme/templates/home/index.html:125
 msgid "Datasets"
 msgstr ""
 
@@ -95,60 +95,56 @@ msgstr ""
 msgid "E.g. environment"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:11
-msgid "Find UN"
-msgstr ""
-
-#: ckanext/theme/templates/home/index.html:11
-msgid "Government data"
-msgstr ""
-
 #: ckanext/theme/templates/home/index.html:12
+msgid "Explore UN <br> Data Catalogue"
+msgstr ""
+
+#: ckanext/theme/templates/home/index.html:13
 msgid "Learn more about UN"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:25
-#: ckanext/theme/templates/home/index.html:27
+#: ckanext/theme/templates/home/index.html:26
+#: ckanext/theme/templates/home/index.html:28
 msgid "Search datasets"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:44
+#: ckanext/theme/templates/home/index.html:45
 msgid "Access the data catalogue using the API"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:57
+#: ckanext/theme/templates/home/index.html:58
 msgid "Most Viewed Datasets"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:72
+#: ckanext/theme/templates/home/index.html:73
 msgid "Recently Added Datasets"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:87
+#: ckanext/theme/templates/home/index.html:88
 msgid "Datasets by Organisation"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:108
+#: ckanext/theme/templates/home/index.html:109
 msgid "Geospatial"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:128
+#: ckanext/theme/templates/home/index.html:129
 msgid "orginatzation"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:132
+#: ckanext/theme/templates/home/index.html:133
 msgid "Categories"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:136
+#: ckanext/theme/templates/home/index.html:137
 msgid "Showcases"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:141
+#: ckanext/theme/templates/home/index.html:142
 msgid "A joint project of the Confederation and the cantons"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:142
+#: ckanext/theme/templates/home/index.html:143
 msgid ""
 "The  portal is a joint project of the Confederation, cantons, communes and "
 "<br> other organizations with a mandate from the state. It makes open "
@@ -156,15 +152,15 @@ msgid ""
 "is operated by the Federal <br> Statistical Office."
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:163
+#: ckanext/theme/templates/home/index.html:164
 msgid "Get involved"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:166
+#: ckanext/theme/templates/home/index.html:167
 msgid "Learn to publish data"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:167
+#: ckanext/theme/templates/home/index.html:168
 msgid "Share Your Showcase"
 msgstr ""
 

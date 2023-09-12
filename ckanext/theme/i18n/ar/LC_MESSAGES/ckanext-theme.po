@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-09-12 11:32+0000\n"
+"POT-Creation-Date: 2023-09-12 15:13+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
@@ -79,8 +79,8 @@ msgid "on a healthy planet"
 msgstr "على كوكب سليم"
 
 #: ckanext/theme/templates/header.html:127
-#: ckanext/theme/templates/home/index.html:20
-#: ckanext/theme/templates/home/index.html:124
+#: ckanext/theme/templates/home/index.html:21
+#: ckanext/theme/templates/home/index.html:125
 msgid "Datasets"
 msgstr "مجموعات البيانات"
 
@@ -100,78 +100,76 @@ msgstr "حول"
 msgid "E.g. environment"
 msgstr "على سبيل المثال. "
 
-#: ckanext/theme/templates/home/index.html:11
-msgid "Find UN"
-msgstr "البحث عن الأمم المتحدة"
-
-#: ckanext/theme/templates/home/index.html:11
-msgid "Government data"
-msgstr "بيانات حكومية"
-
 #: ckanext/theme/templates/home/index.html:12
+msgid "Explore UN <br> Data Catalogue"
+msgstr "استكشف كتالوج  <br>بيانات الأمم المتحدة"
+
+#: ckanext/theme/templates/home/index.html:13
 msgid "Learn more about UN"
 msgstr "تعرف على المزيد عن الأمم المتحدة"
 
-#: ckanext/theme/templates/home/index.html:25
-#: ckanext/theme/templates/home/index.html:27
+#: ckanext/theme/templates/home/index.html:26
+#: ckanext/theme/templates/home/index.html:28
 msgid "Search datasets"
 msgstr "بحث في مجموعات البيانات"
 
-#: ckanext/theme/templates/home/index.html:44
+#: ckanext/theme/templates/home/index.html:45
 msgid "Access the data catalogue using the API"
 msgstr "الوصول إلى كتالوج البيانات باستخدام API"
 
-#: ckanext/theme/templates/home/index.html:57
+#: ckanext/theme/templates/home/index.html:58
 msgid "Most Viewed Datasets"
 msgstr "مجموعات البيانات الأكثر مشاهدة"
 
-#: ckanext/theme/templates/home/index.html:72
+#: ckanext/theme/templates/home/index.html:73
 msgid "Recently Added Datasets"
 msgstr "مجموعات البيانات المضافة مؤخرا"
 
-#: ckanext/theme/templates/home/index.html:87
+#: ckanext/theme/templates/home/index.html:88
 msgid "Datasets by Organisation"
 msgstr "مجموعات البيانات حسب المنظمة"
 
-#: ckanext/theme/templates/home/index.html:108
+#: ckanext/theme/templates/home/index.html:109
 msgid "Geospatial"
 msgstr "الجغرافية المكانية"
 
 # | msgid "Organizations"
-#: ckanext/theme/templates/home/index.html:128
+#: ckanext/theme/templates/home/index.html:129
 #, fuzzy
 msgid "orginatzation"
 msgstr "المنظمات"
 
-#: ckanext/theme/templates/home/index.html:132
+#: ckanext/theme/templates/home/index.html:133
 msgid "Categories"
 msgstr "الفئات"
 
-#: ckanext/theme/templates/home/index.html:136
+#: ckanext/theme/templates/home/index.html:137
 msgid "Showcases"
 msgstr "المعارض"
 
-#: ckanext/theme/templates/home/index.html:141
+#: ckanext/theme/templates/home/index.html:142
 msgid "A joint project of the Confederation and the cantons"
 msgstr "مشروع مشترك بين الاتحاد والكانتونات"
 
-#: ckanext/theme/templates/home/index.html:142
+#: ckanext/theme/templates/home/index.html:143
 msgid ""
 "The  portal is a joint project of the Confederation, cantons, communes "
 "and <br> other organizations with a mandate from the state. It makes open"
 " government data available <br> to the general public in a central "
 "catalogue is operated by the Federal <br> Statistical Office."
-msgstr "البوابة هي مشروع مشترك بين الاتحاد  <br>والكانتونات والبلديات ومنظمات أخرى بتفويض من الدولة. "
+msgstr ""
+"البوابة هي مشروع مشترك بين الاتحاد  <br>والكانتونات والبلديات ومنظمات "
+"أخرى بتفويض من الدولة. "
 
-#: ckanext/theme/templates/home/index.html:163
+#: ckanext/theme/templates/home/index.html:164
 msgid "Get involved"
 msgstr "شارك"
 
-#: ckanext/theme/templates/home/index.html:166
+#: ckanext/theme/templates/home/index.html:167
 msgid "Learn to publish data"
 msgstr "تعلم كيفية نشر البيانات"
 
-#: ckanext/theme/templates/home/index.html:167
+#: ckanext/theme/templates/home/index.html:168
 msgid "Share Your Showcase"
 msgstr "شارك معرضك"
 
@@ -216,4 +214,10 @@ msgstr "هذا قسم مميز"
 #~ "بوابة هي مشروع مشترك بين الاتحاد "
 #~ "والكانتونات والبلديات ومنظمات أخرى بتفويض "
 #~ "من الدولة. "
+
+#~ msgid "Find UN"
+#~ msgstr "البحث عن الأمم المتحدة"
+
+#~ msgid "Government data"
+#~ msgstr "بيانات حكومية"
 

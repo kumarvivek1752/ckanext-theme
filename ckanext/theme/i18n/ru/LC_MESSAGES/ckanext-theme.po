@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-09-12 11:32+0000\n"
+"POT-Creation-Date: 2023-09-12 15:13+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -79,8 +79,8 @@ msgid "on a healthy planet"
 msgstr "на здоровой планете"
 
 #: ckanext/theme/templates/header.html:127
-#: ckanext/theme/templates/home/index.html:20
-#: ckanext/theme/templates/home/index.html:124
+#: ckanext/theme/templates/home/index.html:21
+#: ckanext/theme/templates/home/index.html:125
 msgid "Datasets"
 msgstr "Наборы данных"
 
@@ -100,78 +100,77 @@ msgstr "О себе"
 msgid "E.g. environment"
 msgstr "Например. "
 
-#: ckanext/theme/templates/home/index.html:11
-msgid "Find UN"
-msgstr "Найти ООН"
-
-#: ckanext/theme/templates/home/index.html:11
-msgid "Government data"
-msgstr "Правительственные данные"
-
 #: ckanext/theme/templates/home/index.html:12
+msgid "Explore UN <br> Data Catalogue"
+msgstr "Изучите каталог <br> данных ООН"
+
+
+#: ckanext/theme/templates/home/index.html:13
 msgid "Learn more about UN"
 msgstr "Узнайте больше об ООН"
 
-#: ckanext/theme/templates/home/index.html:25
-#: ckanext/theme/templates/home/index.html:27
+#: ckanext/theme/templates/home/index.html:26
+#: ckanext/theme/templates/home/index.html:28
 msgid "Search datasets"
 msgstr "Поиск наборов данных"
 
-#: ckanext/theme/templates/home/index.html:44
+#: ckanext/theme/templates/home/index.html:45
 msgid "Access the data catalogue using the API"
 msgstr "Доступ к каталогу данных с помощью API."
 
-#: ckanext/theme/templates/home/index.html:57
+#: ckanext/theme/templates/home/index.html:58
 msgid "Most Viewed Datasets"
 msgstr "Самые просматриваемые"
 
-#: ckanext/theme/templates/home/index.html:72
+#: ckanext/theme/templates/home/index.html:73
 msgid "Recently Added Datasets"
 msgstr "Недавно добавленные наборы данных"
 
-#: ckanext/theme/templates/home/index.html:87
+#: ckanext/theme/templates/home/index.html:88
 msgid "Datasets by Organisation"
 msgstr "Наборы данных по организациям"
 
-#: ckanext/theme/templates/home/index.html:108
+#: ckanext/theme/templates/home/index.html:109
 msgid "Geospatial"
 msgstr "Геопространственный"
 
 # | msgid "Organizations"
-#: ckanext/theme/templates/home/index.html:128
+#: ckanext/theme/templates/home/index.html:129
 #, fuzzy
 msgid "orginatzation"
 msgstr "Организации"
 
-#: ckanext/theme/templates/home/index.html:132
+#: ckanext/theme/templates/home/index.html:133
 msgid "Categories"
 msgstr "Категории"
 
-#: ckanext/theme/templates/home/index.html:136
+#: ckanext/theme/templates/home/index.html:137
 msgid "Showcases"
 msgstr "Витрины"
 
-#: ckanext/theme/templates/home/index.html:141
+#: ckanext/theme/templates/home/index.html:142
 msgid "A joint project of the Confederation and the cantons"
 msgstr "Совместный проект Конфедерации и кантонов."
 
-#: ckanext/theme/templates/home/index.html:142
+#: ckanext/theme/templates/home/index.html:143
 msgid ""
 "The  portal is a joint project of the Confederation, cantons, communes "
 "and <br> other organizations with a mandate from the state. It makes open"
 " government data available <br> to the general public in a central "
 "catalogue is operated by the Federal <br> Statistical Office."
-msgstr "Портал является совместным проектом Конфедерации, кантонов, <br> коммун и других организаций с мандатом государства. "
+msgstr ""
+"Портал является совместным проектом Конфедерации, кантонов, <br> коммун и"
+" других организаций с мандатом государства. "
 
-#: ckanext/theme/templates/home/index.html:163
+#: ckanext/theme/templates/home/index.html:164
 msgid "Get involved"
 msgstr "Принимайте участие"
 
-#: ckanext/theme/templates/home/index.html:166
+#: ckanext/theme/templates/home/index.html:167
 msgid "Learn to publish data"
 msgstr "Научитесь публиковать"
 
-#: ckanext/theme/templates/home/index.html:167
+#: ckanext/theme/templates/home/index.html:168
 msgid "Share Your Showcase"
 msgstr "Поделитесь своей "
 
@@ -217,4 +216,10 @@ msgstr "Это избранный раздел."
 #~ "проект Конфедерации, кантонов, коммун и "
 #~ "<br> других организаций с мандатом "
 #~ "государства. "
+
+#~ msgid "Find UN"
+#~ msgstr "Найти ООН"
+
+#~ msgid "Government data"
+#~ msgstr "Правительственные данные"
 
