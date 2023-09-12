@@ -4,15 +4,18 @@
 }
 .un-subheader{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 .un-subheader--left{
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .un-subheader--left>p{
 margin: 0;
+padding: 0.5rem;
 align-items: center;
 
 }
@@ -20,7 +23,6 @@ align-items: center;
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-left: 14rem;
     background-color: var(--light-grey);
 }
 #un-branding--logo{
@@ -446,312 +448,12 @@ align-items: center;
 
 
 
-
-
-/* hero section */
-
-.hero-section {
-    background-color: var(--green);
-    height: 332px;
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-}
-
-.hero--intro {
-    margin-top: 45px;
-}
-
-.total-dataset {
-    color: var(--light-grey);
-    text-align: right;
-    font-family: Roboto;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 0px;
-}
-
-.total-dataset--text {
-    color: var(--light-grey);
-    text-align: right;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-/* main */
-.main {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: var(--light-grey);
-    height: 250px;
-    width: 100vw;
-    flex-direction: column;
-
-}
-
-.main-components {
-    display: flex;
-
-}
-
-.main-box {
-    display: flex;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 240px;
-    height: 137px;
-    padding: 16.8px 56.4px 18px 54.6px;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-    flex-shrink: 0;
-    background-color: var(--white);
-    border-radius: 5px;
-    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.main-box>p {
-    color: var(--grey);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 0px;
-}
-
-/* un-details */
-.un-details {
-    background-color: var(--grey);
-    height: 300px;
-    width: 100vw;
-}
-
-.un-details-first {
-    display: flex;
-    justify-content: space-around;
-}
-
-.details-box {
-    margin-top: 30px;
-}
-
-.details-box>h3 {
-    display: flex;
-    color: var(--light-grey, #F2F2F2);
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 0px;
-
-
-}
-
-.details-box>p {
-    color: var(--light-grey);
-    font-family: Roboto;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-}
-
-.un-details-secound {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.un-details-secound-logo>h3 {
-    color: var(--light-grey);
-    text-align: left;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.un-details-secound-logo>p {
-    color: var(--light-grey);
-    text-align: left;
-    font-family: Roboto;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-
-/* pre-footer */
-.pre-footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: var(--green);
-    height: 200px;
-    width: 100vw;
-}
-
-.pre-footer>div>h3 {
-    color: var(--light-grey, #F2F2F2);
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.pre-footer>div>button {
-    margin-left: 20px;
-}
-
-
-
-
-
-/* responsive */
-/* Resposive */
-@media (max-width: 576px) {
-
-    .hero {
-        background: var(--light-grey) !important;}
-
-
-
-    /* Extra Small Devices: Phones (<576px) */
-    #un-branding-logo {
-        width: 70vw;
-        height: 100px;
-    }
-
-    .un-quote {
-        font-size: 20px;
-        width: 70vw;
-        margin-bottom: 15px;
-        margin-left: 15px;
-        font-weight: bold;
-
-    }
-
-}
-
-@media (max-width: 768px) {
-    /* Medium Devices: Tablets (≥768px)
- */
-
-}
-
-@media (min-width: 992px) {
-
-    /* Large Devices: Desktops (≥992px) */
-
-}
-
-@media (min-width: 1200px) {
-
-    /* Extra large: Desktops (≥1200px) */
-    .un-branding {
-        padding-left: 4vw;
-    }
-    #un-branding-logo {
-        width: 15vw;
-        height: 100px;
-    }
-
-}
-
-@media (min-width: 1400px) {
-
-    /* Extra extra large: Desktops (≥1400px) */
-    .un-branding {
-        padding-left: 4vw;
-
-    }
-
-    .main-box {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-    #un-branding-logo{
-        width: 15vw;
-    }
-}
-
-
-/* componenets */
-.bold-text {
-    color: var(--Light-Grey, #F2F2F2);
-    font-family: Roboto;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.un-btn {
-    font-family: sans-serif;
-    border: 2px solid var(--light-grey);
-    background-color: var(--green);
-    color: var(--light-grey);
-    font-size: 16px;
-    cursor: pointer;
-    width: 225px;
-    height: 45px;
-}
-
-.search-box {
-    width: 590px;
-    height: 75px;
-    border-radius: 5px;
-    background-color: var(--light-grey);
-    border: none;
-}
-
-.search-box>input {
-    width: 540px;
-    height: 75px;
-    border-radius: 5px;
-    background-color: var(--light-grey);
-    border: none;
-    font-family: Roboto;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: var(--grey);
-    padding-left: 20px;
-}
-
-.search-form>p {
-    margin-top: 5px;
-    color: var(--light-grey);
-    text-align: right;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-
-
 /* ckan defult */
-/* .search-form {
+.search-form {
     border-radius: 0.25rem;
     background-color: var(--grey) !important;
     padding: 30px 20px;
-} */
+}
 .tags{
     margin-top: -5px;
     padding: 5px 10px 10px 10px;

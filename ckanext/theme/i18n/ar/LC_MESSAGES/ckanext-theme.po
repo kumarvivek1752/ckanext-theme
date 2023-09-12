@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-09-10 08:32+0000\n"
+"POT-Creation-Date: 2023-09-12 11:32+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
@@ -66,6 +66,10 @@ msgstr "تسجيل الدخول"
 msgid "Register"
 msgstr "التسجيل"
 
+#: ckanext/theme/templates/header.html:101
+msgid "Welcome to United Nations"
+msgstr "مرحبا بكم في الأمم المتحدة"
+
 #: ckanext/theme/templates/header.html:120
 msgid "Peace, dignity and equality"
 msgstr "السلام والكرامة والمساواة"
@@ -76,12 +80,11 @@ msgstr "على كوكب سليم"
 
 #: ckanext/theme/templates/header.html:127
 #: ckanext/theme/templates/home/index.html:20
-#: ckanext/theme/templates/home/index.html:123
+#: ckanext/theme/templates/home/index.html:124
 msgid "Datasets"
 msgstr "مجموعات البيانات"
 
 #: ckanext/theme/templates/header.html:129
-#: ckanext/theme/templates/home/index.html:127
 msgid "Organizations"
 msgstr "المنظمات"
 
@@ -98,8 +101,8 @@ msgid "E.g. environment"
 msgstr "على سبيل المثال. "
 
 #: ckanext/theme/templates/home/index.html:11
-msgid "Find UN Open"
-msgstr "البحث عن الأمم المتحدة المفتوحة"
+msgid "Find UN"
+msgstr "البحث عن الأمم المتحدة"
 
 #: ckanext/theme/templates/home/index.html:11
 msgid "Government data"
@@ -114,56 +117,61 @@ msgstr "تعرف على المزيد عن الأمم المتحدة"
 msgid "Search datasets"
 msgstr "بحث في مجموعات البيانات"
 
-#: ckanext/theme/templates/home/index.html:43
+#: ckanext/theme/templates/home/index.html:44
 msgid "Access the data catalogue using the API"
 msgstr "الوصول إلى كتالوج البيانات باستخدام API"
 
-#: ckanext/theme/templates/home/index.html:56
+#: ckanext/theme/templates/home/index.html:57
 msgid "Most Viewed Datasets"
 msgstr "مجموعات البيانات الأكثر مشاهدة"
 
-#: ckanext/theme/templates/home/index.html:71
+#: ckanext/theme/templates/home/index.html:72
 msgid "Recently Added Datasets"
 msgstr "مجموعات البيانات المضافة مؤخرا"
 
-#: ckanext/theme/templates/home/index.html:86
+#: ckanext/theme/templates/home/index.html:87
 msgid "Datasets by Organisation"
 msgstr "مجموعات البيانات حسب المنظمة"
 
-#: ckanext/theme/templates/home/index.html:107
+#: ckanext/theme/templates/home/index.html:108
 msgid "Geospatial"
 msgstr "الجغرافية المكانية"
 
-#: ckanext/theme/templates/home/index.html:131
+# | msgid "Organizations"
+#: ckanext/theme/templates/home/index.html:128
+#, fuzzy
+msgid "orginatzation"
+msgstr "المنظمات"
+
+#: ckanext/theme/templates/home/index.html:132
 msgid "Categories"
 msgstr "الفئات"
 
-#: ckanext/theme/templates/home/index.html:135
+#: ckanext/theme/templates/home/index.html:136
 msgid "Showcases"
 msgstr "المعارض"
 
-#: ckanext/theme/templates/home/index.html:140
+#: ckanext/theme/templates/home/index.html:141
 msgid "A joint project of the Confederation and the cantons"
 msgstr "مشروع مشترك بين الاتحاد والكانتونات"
 
-#: ckanext/theme/templates/home/index.html:141
+#: ckanext/theme/templates/home/index.html:142
 msgid ""
-"The opendata.swiss portal is a joint project of the Confederation, "
-"cantons, communes and <br> other organizations with a mandate from the "
-"state. It makes open government data available <br> to the general public"
-" in a central catalogue.opendata.swiss is operated by the Federal <br> "
-"Statistical Office."
-msgstr "بوابة هي مشروع مشترك بين الاتحاد والكانتونات والبلديات ومنظمات أخرى بتفويض من الدولة. "
+"The  portal is a joint project of the Confederation, cantons, communes "
+"and <br> other organizations with a mandate from the state. It makes open"
+" government data available <br> to the general public in a central "
+"catalogue is operated by the Federal <br> Statistical Office."
+msgstr "البوابة هي مشروع مشترك بين الاتحاد  <br>والكانتونات والبلديات ومنظمات أخرى بتفويض من الدولة. "
 
-#: ckanext/theme/templates/home/index.html:161
+#: ckanext/theme/templates/home/index.html:163
 msgid "Get involved"
 msgstr "شارك"
 
-#: ckanext/theme/templates/home/index.html:164
+#: ckanext/theme/templates/home/index.html:166
 msgid "Learn to publish data"
 msgstr "تعلم كيفية نشر البيانات"
 
-#: ckanext/theme/templates/home/index.html:165
+#: ckanext/theme/templates/home/index.html:167
 msgid "Share Your Showcase"
 msgstr "شارك معرضك"
 
@@ -192,4 +200,20 @@ msgstr "هذا قسم مميز"
 #~ " Federal Statistical Office."
 #~ msgstr ""
 
+#~ msgid "Find UN Open"
+#~ msgstr "البحث عن الأمم المتحدة المفتوحة"
+
+#~ msgid ""
+#~ "The opendata.swiss portal is a joint "
+#~ "project of the Confederation, cantons, "
+#~ "communes and <br> other organizations "
+#~ "with a mandate from the state. It"
+#~ " makes open government data available "
+#~ "<br> to the general public in a"
+#~ " central catalogue.opendata.swiss is operated "
+#~ "by the Federal <br> Statistical Office."
+#~ msgstr ""
+#~ "بوابة هي مشروع مشترك بين الاتحاد "
+#~ "والكانتونات والبلديات ومنظمات أخرى بتفويض "
+#~ "من الدولة. "
 
