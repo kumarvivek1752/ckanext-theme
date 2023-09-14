@@ -81,7 +81,7 @@ msgstr "sur une planète saine"
 #: ckanext/theme/templates/home/index.html:21
 #: ckanext/theme/templates/home/index.html:125
 msgid "Datasets"
-msgstr "Datasets"
+msgstr "Ensembles de données"
 
 #: ckanext/theme/templates/header.html:129
 msgid "Organizations"
