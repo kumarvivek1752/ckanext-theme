@@ -451,7 +451,8 @@ align-items: center;
 /* ckan defult */
 .search-form {
     border-radius: 0.25rem;
-    background-color: var(--grey) !important;
+    background-color: var(--green) !important;
+
     padding: 30px 20px;
 }
 .tags{
