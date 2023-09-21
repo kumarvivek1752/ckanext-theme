@@ -1,0 +1,27 @@
+{#
+  Displays a sidebard module with information about organizations.
+
+  group_type    - The type of organization.
+
+  Example:
+
+  {% snippet "organization/snippets/helper.html", group_type=group_type %}
+        
+  
+  <i class="fa fa-info-circle"></i>
+
+  #}
+
+
+  <div class="module module-narrow module-shallow">
+    <h2 class="module-heading">
+
+      {{ _('') }}
+    </h2>
+    <div class="module-content">
+      <p>
+        {% trans %}
+        {% endtrans %}
+      </p>
+    </div>
+  </div>

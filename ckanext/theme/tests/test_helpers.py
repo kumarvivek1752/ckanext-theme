@@ -1,5 +1,6 @@
 """Tests for helpers.py."""
 
+import pytest
 import ckanext.theme.helpers as helpers
 
 

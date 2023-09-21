@@ -86,7 +86,7 @@
                         </clipPath>
                     </defs>
                 </svg>
-                <p><a href="/{{ request.environ.CKAN_LANG }}/organization/"> {{_('Datasets by Organisation')}}</p></a>
+                <p><a href="/{{ request.environ.CKAN_LANG }}/organization/"> {{_('Datasets by Organisation')}}</a></p>
             </div>
             <div class="un-main-box"><svg xmlns="http://www.w3.org/2000/svg" width="93" height="88" viewBox="0 0 93 88"
                     fill="none">
@@ -107,7 +107,7 @@
                         </clipPath>
                     </defs>
                 </svg>
-                <p>{{_('Geospatial')}} </p>
+                <p><a href="/{{ request.environ.CKAN_LANG }}/group/"> {{_('Datasets by <br>Groups')}}</a></p>
             </div>
 
 
@@ -123,19 +123,19 @@
         <div class="un-details-first">
             <div class="details-box">
                 <h3>{{g.datasets | length }}&#160;<i class="fa-regular fa-file " style="color: #f2f2f2;"></i></h3>
-                <p>{{_('Datasets')}} </p>
+                <p><a href="/{{ request.environ.CKAN_LANG }}/dataset/">{{_('Datasets')}}</a></p>
             </div>
             <div class="details-box">
-                <h3>{{ g.datasets | length }} &#160; <i class="fa-solid fa-users" style="color: #f2f2f2;"></i></h3>
-                <p>{{_('orginatzation')}} </p>
+                <h3>{{ h.count_organizations() }} &#160; <i class="fa-solid fa-users" style="color: #f2f2f2;"></i></h3>
+                <p><a href="/{{ request.environ.CKAN_LANG }}/organization/">{{_('organizations')}}</a> </p>
             </div>
             <div class="details-box">
                 <h3>{{ g.group | length }} &#160; <i class="fa-solid fa-tags" style="color: #f2f2f2;"></i></h3>
-                <p>{{_('Categories')}} </p>
+                <p><a href="/{{ request.environ.CKAN_LANG }}/group/" >{{_('Categories')}}</a></p>
             </div>
             <div class="details-box">
                 <h3>{{ g.tag | length }} &#160; <i class="fa-solid fa-puzzle-piece " style="color: #f2f2f2;"></i></h3>
-                <p>{{_('Showcases')}} </p>
+                <p><a href="">{{_('Showcases')}}</a> </p>
             </div>
         </div>
         <div class="un-details-secound">

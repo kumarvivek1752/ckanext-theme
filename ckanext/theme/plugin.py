@@ -13,6 +13,7 @@ from ckan.lib.plugins import DefaultTranslation
 class ThemePlugin(plugins.SingletonPlugin,DefaultTranslation):
     plugins.implements(plugins.ITranslation)
     plugins.implements(plugins.IConfigurer)
+    plugins.implements(plugins.ITemplateHelpers)
     
     # plugins.implements(plugins.IAuthFunctions)
     # plugins.implements(plugins.IActions)
@@ -21,7 +22,13 @@ class ThemePlugin(plugins.SingletonPlugin,DefaultTranslation):
     # plugins.implements(plugins.ITemplateHelpers)
     # plugins.implements(plugins.IValidators)
     
-
+    def count_organizations(self):
+        context = {'ignore_auth': True}
+        organizations = toolkit.get_action('organization_list')(
+            context,
+            {'all_fields': False}
+        )
+        return len(organizations)
     # IConfigurer
 
     def update_config(self, config_):
@@ -29,6 +36,10 @@ class ThemePlugin(plugins.SingletonPlugin,DefaultTranslation):
         toolkit.add_public_directory(config_, "public")
         toolkit.add_resource("assets", "theme")
 
+
+        
+    def get_helpers(self):
+        return {'count_organizations': self.count_organizations}
 
 
 

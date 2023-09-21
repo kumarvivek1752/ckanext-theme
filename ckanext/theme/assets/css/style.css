@@ -262,7 +262,7 @@ align-items: center;
 
 }
 
-.details-box>p {
+.details-box>p>a {
     color: var(--light-grey);
     font-family: Roboto;
     font-size: 13px;
@@ -464,16 +464,16 @@ align-items: center;
 .control-order-by > label{
     color: var(--grey) !important;
 }
-.list-unstyled > li>a{
+/* .list-unstyled > li>a{
     color: white !important;
-}
+} */
 
 
 
 
-.control-order-by > label{
+/* .control-order-by > label{
     color: var(--light-grey) !important;
-}
+} */
 .search-form > h1{
     color: var(--light-grey) !important;
 }
