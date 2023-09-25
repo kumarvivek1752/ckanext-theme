@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-09-12 15:13+0000\n"
+"POT-Creation-Date: 2023-09-25 04:25+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
@@ -70,31 +70,35 @@ msgstr "التسجيل"
 msgid "Welcome to United Nations"
 msgstr "مرحبا بكم في الأمم المتحدة"
 
-#: ckanext/theme/templates/header.html:120
+#: ckanext/theme/templates/header.html:121
 msgid "Peace, dignity and equality"
 msgstr "السلام والكرامة والمساواة"
 
-#: ckanext/theme/templates/header.html:120
+#: ckanext/theme/templates/header.html:121
 msgid "on a healthy planet"
 msgstr "على كوكب سليم"
 
-#: ckanext/theme/templates/header.html:127
-#: ckanext/theme/templates/home/index.html:21
+#: ckanext/theme/templates/header.html:128
+#: ckanext/theme/templates/home/index.html:20
 #: ckanext/theme/templates/home/index.html:125
 msgid "Datasets"
 msgstr "مجموعات البيانات"
 
-#: ckanext/theme/templates/header.html:129
+#: ckanext/theme/templates/header.html:130
 msgid "Organizations"
 msgstr "المنظمات"
 
-#: ckanext/theme/templates/header.html:131
+#: ckanext/theme/templates/header.html:132
 msgid "Groups"
 msgstr "المجموعات"
 
-#: ckanext/theme/templates/header.html:133
+#: ckanext/theme/templates/header.html:134
 msgid "About"
 msgstr "حول"
+
+#: ckanext/theme/templates/group/snippets/helper.html:21
+msgid "."
+msgstr ""
 
 #: ckanext/theme/templates/home/index.html:3
 msgid "E.g. environment"
@@ -105,21 +109,23 @@ msgid "Explore UN <br> Data Catalogue"
 msgstr "استكشف كتالوج  <br>بيانات الأمم المتحدة"
 
 #: ckanext/theme/templates/home/index.html:13
-msgid "Learn more about UN"
-msgstr "تعرف على المزيد عن الأمم المتحدة"
+msgid "Learn UN Data Portal"
+msgstr "تعرف على بوابة المتحدة"
 
-#: ckanext/theme/templates/home/index.html:26
-#: ckanext/theme/templates/home/index.html:28
+#: ckanext/theme/templates/home/index.html:25
+#: ckanext/theme/templates/home/index.html:27
 msgid "Search datasets"
 msgstr "بحث في مجموعات البيانات"
 
-#: ckanext/theme/templates/home/index.html:45
+#: ckanext/theme/templates/home/index.html:44
 msgid "Access the data catalogue using the API"
 msgstr "الوصول إلى كتالوج البيانات باستخدام API"
 
-#: ckanext/theme/templates/home/index.html:58
-msgid "Most Viewed Datasets"
-msgstr "مجموعات البيانات الأكثر مشاهدة"
+#: ckanext/theme/templates/home/index.html:57
+msgid ""
+"Most Viewed\n"
+"                        Datasets"
+msgstr ""
 
 #: ckanext/theme/templates/home/index.html:73
 msgid "Recently Added Datasets"
@@ -130,13 +136,14 @@ msgid "Datasets by Organisation"
 msgstr "مجموعات البيانات حسب المنظمة"
 
 #: ckanext/theme/templates/home/index.html:109
-msgid "Geospatial"
-msgstr "الجغرافية المكانية"
 
-# | msgid "Organizations"
+msgid "Datasets by <br>Groups"
+msgstr "مجموعات البيانات حسب المنظمة"
+
 #: ckanext/theme/templates/home/index.html:129
 #, fuzzy
-msgid "orginatzation"
+#| msgid "Organizations"
+msgid "organizations"
 msgstr "المنظمات"
 
 #: ckanext/theme/templates/home/index.html:133
@@ -152,24 +159,29 @@ msgid "A joint project of the Confederation and the cantons"
 msgstr "مشروع مشترك بين الاتحاد والكانتونات"
 
 #: ckanext/theme/templates/home/index.html:143
+#, fuzzy
+#| msgid "" "The  portal is a joint project of the Confederation, cantons,
+#| communes " "and <br> other organizations with a mandate from the state. It
+#| makes open" " government data available <br> to the general public in a
+#| central " "catalogue is operated by the Federal <br> Statistical Office."
 msgid ""
-"The  portal is a joint project of the Confederation, cantons, communes "
-"and <br> other organizations with a mandate from the state. It makes open"
-" government data available <br> to the general public in a central "
+"The portal is a joint project of the Confederation, cantons, communes and"
+" <br> other organizations with a mandate from the state. It makes open "
+"government data available <br> to the general public in a central "
 "catalogue is operated by the Federal <br> Statistical Office."
 msgstr ""
 "البوابة هي مشروع مشترك بين الاتحاد  <br>والكانتونات والبلديات ومنظمات "
 "أخرى بتفويض من الدولة. "
 
-#: ckanext/theme/templates/home/index.html:164
+#: ckanext/theme/templates/home/index.html:165
 msgid "Get involved"
 msgstr "شارك"
 
-#: ckanext/theme/templates/home/index.html:167
+#: ckanext/theme/templates/home/index.html:168
 msgid "Learn to publish data"
 msgstr "تعلم كيفية نشر البيانات"
 
-#: ckanext/theme/templates/home/index.html:168
+#: ckanext/theme/templates/home/index.html:169
 msgid "Share Your Showcase"
 msgstr "شارك معرضك"
 
@@ -220,4 +232,17 @@ msgstr "هذا قسم مميز"
 
 #~ msgid "Government data"
 #~ msgstr "بيانات حكومية"
+
+#~ msgid "Learn more about UN"
+#~ msgstr "تعرف على المزيد عن الأمم المتحدة"
+
+#~ msgid "Most Viewed Datasets"
+#~ msgstr "مجموعات البيانات الأكثر مشاهدة"
+
+#~ msgid "Geospatial"
+#~ msgstr "الجغرافية المكانية"
+
+# | msgid "Organizations"
+#~ msgid "orginatzation"
+#~ msgstr "المنظمات"
 

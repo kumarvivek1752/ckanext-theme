@@ -115,7 +115,8 @@
 
 <div class="un-header-branding">
     <a href="{{ h.url_for('home.index') }}">
-        <img id="un-branding-logo" src="/assest/img/un_logo_light.png" alt="" srcset=""></a>
+        <img  id="un-branding-logo" src="/assest/img/UN-logo-{{ request.environ.CKAN_LANG }}.png" alt="" srcset="">
+    </a>
     <div class="vertical"></div>
     <p class=" un-quote">{{ _("Peace, dignity and equality") }}<br>{{ _("on a healthy planet") }} </p>
 </div>

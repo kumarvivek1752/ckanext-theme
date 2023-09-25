@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-09-12 15:13+0000\n"
+"POT-Creation-Date: 2023-09-25 04:25+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -70,31 +70,35 @@ msgstr "Регистрация"
 msgid "Welcome to United Nations"
 msgstr "Добро пожаловать в Организацию Объединенных Наций"
 
-#: ckanext/theme/templates/header.html:120
+#: ckanext/theme/templates/header.html:121
 msgid "Peace, dignity and equality"
 msgstr "Мир, достоинство и равенство"
 
-#: ckanext/theme/templates/header.html:120
+#: ckanext/theme/templates/header.html:121
 msgid "on a healthy planet"
 msgstr "на здоровой планете"
 
-#: ckanext/theme/templates/header.html:127
-#: ckanext/theme/templates/home/index.html:21
+#: ckanext/theme/templates/header.html:128
+#: ckanext/theme/templates/home/index.html:20
 #: ckanext/theme/templates/home/index.html:125
 msgid "Datasets"
 msgstr "Наборы данных"
 
-#: ckanext/theme/templates/header.html:129
+#: ckanext/theme/templates/header.html:130
 msgid "Organizations"
 msgstr "Организации"
 
-#: ckanext/theme/templates/header.html:131
+#: ckanext/theme/templates/header.html:132
 msgid "Groups"
 msgstr "Группы"
 
-#: ckanext/theme/templates/header.html:133
+#: ckanext/theme/templates/header.html:134
 msgid "About"
 msgstr "О себе"
+
+#: ckanext/theme/templates/group/snippets/helper.html:21
+msgid "."
+msgstr ""
 
 #: ckanext/theme/templates/home/index.html:3
 msgid "E.g. environment"
@@ -104,23 +108,24 @@ msgstr "Например. "
 msgid "Explore UN <br> Data Catalogue"
 msgstr "Изучите каталог <br> данных ООН"
 
-
 #: ckanext/theme/templates/home/index.html:13
-msgid "Learn more about UN"
-msgstr "Узнайте больше об ООН"
+msgid "Learn UN Data Portal"
+msgstr "Изучите портал данных"
 
-#: ckanext/theme/templates/home/index.html:26
-#: ckanext/theme/templates/home/index.html:28
+#: ckanext/theme/templates/home/index.html:25
+#: ckanext/theme/templates/home/index.html:27
 msgid "Search datasets"
 msgstr "Поиск наборов данных"
 
-#: ckanext/theme/templates/home/index.html:45
+#: ckanext/theme/templates/home/index.html:44
 msgid "Access the data catalogue using the API"
 msgstr "Доступ к каталогу данных с помощью API."
 
-#: ckanext/theme/templates/home/index.html:58
-msgid "Most Viewed Datasets"
-msgstr "Самые просматриваемые"
+#: ckanext/theme/templates/home/index.html:57
+msgid ""
+"Most Viewed\n"
+"                        Datasets"
+msgstr ""
 
 #: ckanext/theme/templates/home/index.html:73
 msgid "Recently Added Datasets"
@@ -131,13 +136,13 @@ msgid "Datasets by Organisation"
 msgstr "Наборы данных по организациям"
 
 #: ckanext/theme/templates/home/index.html:109
-msgid "Geospatial"
-msgstr "Геопространственный"
+#| msgid "Datasets by Organisation"
+msgid "Datasets by <br>Groups"
+msgstr "Наборы данных по организациям"
 
-# | msgid "Organizations"
 #: ckanext/theme/templates/home/index.html:129
-#, fuzzy
-msgid "orginatzation"
+#| msgid "Organizations"
+msgid "organizations"
 msgstr "Организации"
 
 #: ckanext/theme/templates/home/index.html:133
@@ -153,24 +158,29 @@ msgid "A joint project of the Confederation and the cantons"
 msgstr "Совместный проект Конфедерации и кантонов."
 
 #: ckanext/theme/templates/home/index.html:143
+#, fuzzy
+#| msgid "" "The  portal is a joint project of the Confederation, cantons,
+#| communes " "and <br> other organizations with a mandate from the state. It
+#| makes open" " government data available <br> to the general public in a
+#| central " "catalogue is operated by the Federal <br> Statistical Office."
 msgid ""
-"The  portal is a joint project of the Confederation, cantons, communes "
-"and <br> other organizations with a mandate from the state. It makes open"
-" government data available <br> to the general public in a central "
+"The portal is a joint project of the Confederation, cantons, communes and"
+" <br> other organizations with a mandate from the state. It makes open "
+"government data available <br> to the general public in a central "
 "catalogue is operated by the Federal <br> Statistical Office."
 msgstr ""
 "Портал является совместным проектом Конфедерации, кантонов, <br> коммун и"
 " других организаций с мандатом государства. "
 
-#: ckanext/theme/templates/home/index.html:164
+#: ckanext/theme/templates/home/index.html:165
 msgid "Get involved"
 msgstr "Принимайте участие"
 
-#: ckanext/theme/templates/home/index.html:167
+#: ckanext/theme/templates/home/index.html:168
 msgid "Learn to publish data"
 msgstr "Научитесь публиковать"
 
-#: ckanext/theme/templates/home/index.html:168
+#: ckanext/theme/templates/home/index.html:169
 msgid "Share Your Showcase"
 msgstr "Поделитесь своей "
 
@@ -222,4 +232,17 @@ msgstr "Это избранный раздел."
 
 #~ msgid "Government data"
 #~ msgstr "Правительственные данные"
+
+#~ msgid "Learn more about UN"
+#~ msgstr "Узнайте больше об ООН"
+
+#~ msgid "Most Viewed Datasets"
+#~ msgstr "Самые просматриваемые"
+
+#~ msgid "Geospatial"
+#~ msgstr "Геопространственный"
+
+# | msgid "Organizations"
+#~ msgid "orginatzation"
+#~ msgstr "Организации"
 

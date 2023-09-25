@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-09-12 15:13+0000\n"
+"POT-Creation-Date: 2023-09-25 04:25+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -69,31 +69,35 @@ msgstr "Registrarse"
 msgid "Welcome to United Nations"
 msgstr "Bienvenidos a las Naciones Unidas"
 
-#: ckanext/theme/templates/header.html:120
+#: ckanext/theme/templates/header.html:121
 msgid "Peace, dignity and equality"
 msgstr "Paz, dignidad e igualdad"
 
-#: ckanext/theme/templates/header.html:120
+#: ckanext/theme/templates/header.html:121
 msgid "on a healthy planet"
 msgstr "en un planeta sano"
 
-#: ckanext/theme/templates/header.html:127
-#: ckanext/theme/templates/home/index.html:21
+#: ckanext/theme/templates/header.html:128
+#: ckanext/theme/templates/home/index.html:20
 #: ckanext/theme/templates/home/index.html:125
 msgid "Datasets"
 msgstr "Conjuntos de datos"
 
-#: ckanext/theme/templates/header.html:129
+#: ckanext/theme/templates/header.html:130
 msgid "Organizations"
 msgstr "Organizaciones"
 
-#: ckanext/theme/templates/header.html:131
+#: ckanext/theme/templates/header.html:132
 msgid "Groups"
 msgstr "Grupos"
 
-#: ckanext/theme/templates/header.html:133
+#: ckanext/theme/templates/header.html:134
 msgid "About"
 msgstr "Acerca de"
+
+#: ckanext/theme/templates/group/snippets/helper.html:21
+msgid "."
+msgstr ""
 
 #: ckanext/theme/templates/home/index.html:3
 msgid "E.g. environment"
@@ -104,21 +108,23 @@ msgid "Explore UN <br> Data Catalogue"
 msgstr "Explore el catálogo <br>de la ONU"
 
 #: ckanext/theme/templates/home/index.html:13
-msgid "Learn more about UN"
-msgstr "Más información sobre la ONU"
+msgid "Learn UN Data Portal"
+msgstr "Aprenda la ONU"
 
-#: ckanext/theme/templates/home/index.html:26
-#: ckanext/theme/templates/home/index.html:28
+#: ckanext/theme/templates/home/index.html:25
+#: ckanext/theme/templates/home/index.html:27
 msgid "Search datasets"
 msgstr "Buscar conjuntos de datos"
 
-#: ckanext/theme/templates/home/index.html:45
+#: ckanext/theme/templates/home/index.html:44
 msgid "Access the data catalogue using the API"
 msgstr "Acceder al catálogo de datos usando la API"
 
-#: ckanext/theme/templates/home/index.html:58
-msgid "Most Viewed Datasets"
-msgstr "Conjuntos de datos más vistos"
+#: ckanext/theme/templates/home/index.html:57
+msgid ""
+"Most Viewed\n"
+"                        Datasets"
+msgstr ""
 
 #: ckanext/theme/templates/home/index.html:73
 msgid "Recently Added Datasets"
@@ -129,13 +135,14 @@ msgid "Datasets by Organisation"
 msgstr "Conjuntos de datos por organización"
 
 #: ckanext/theme/templates/home/index.html:109
-msgid "Geospatial"
-msgstr "Geoespacial"
 
-# | msgid "Organizations"
+msgid "Datasets by <br>Groups"
+msgstr "Conjuntos de datos por organización"
+
 #: ckanext/theme/templates/home/index.html:129
 #, fuzzy
-msgid "orginatzation"
+#| msgid "Organizations"
+msgid "organizations"
 msgstr "Organizaciones"
 
 #: ckanext/theme/templates/home/index.html:133
@@ -151,24 +158,29 @@ msgid "A joint project of the Confederation and the cantons"
 msgstr "Un proyecto conjunto de la Confederación y los cantones"
 
 #: ckanext/theme/templates/home/index.html:143
+#, fuzzy
+#| msgid "" "The  portal is a joint project of the Confederation, cantons,
+#| communes " "and <br> other organizations with a mandate from the state. It
+#| makes open" " government data available <br> to the general public in a
+#| central " "catalogue is operated by the Federal <br> Statistical Office."
 msgid ""
-"The  portal is a joint project of the Confederation, cantons, communes "
-"and <br> other organizations with a mandate from the state. It makes open"
-" government data available <br> to the general public in a central "
+"The portal is a joint project of the Confederation, cantons, communes and"
+" <br> other organizations with a mandate from the state. It makes open "
+"government data available <br> to the general public in a central "
 "catalogue is operated by the Federal <br> Statistical Office."
 msgstr ""
 "El portal es un proyecto conjunto de la Confederación, los cantones, los "
 "municipios y <br> otras organizaciones con mandato del Estado. "
 
-#: ckanext/theme/templates/home/index.html:164
+#: ckanext/theme/templates/home/index.html:165
 msgid "Get involved"
 msgstr "Involúcrate"
 
-#: ckanext/theme/templates/home/index.html:167
+#: ckanext/theme/templates/home/index.html:168
 msgid "Learn to publish data"
 msgstr "Aprende a publicar datos"
 
-#: ckanext/theme/templates/home/index.html:168
+#: ckanext/theme/templates/home/index.html:169
 msgid "Share Your Showcase"
 msgstr "Comparte tu escaparate"
 
@@ -221,4 +233,17 @@ msgstr "Esta es una sección destacada"
 
 #~ msgid "Government data"
 #~ msgstr "Datos gubernamentales"
+
+#~ msgid "Learn more about UN"
+#~ msgstr "Más información sobre la ONU"
+
+#~ msgid "Most Viewed Datasets"
+#~ msgstr "Conjuntos de datos más vistos"
+
+#~ msgid "Geospatial"
+#~ msgstr "Geoespacial"
+
+# | msgid "Organizations"
+#~ msgid "orginatzation"
+#~ msgstr "Organizaciones"
 
