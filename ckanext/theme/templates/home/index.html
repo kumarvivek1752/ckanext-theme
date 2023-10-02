@@ -13,7 +13,6 @@
             <a href="/{{ request.environ.CKAN_LANG }}/about"><button class="un-btn">{{_("Learn UN Data Portal")}} </button></a>
 
         </div>
-
         <div class="un-hero--intro">
             {#<h3 class="total-dataset">{{ '{0:,}'.format([1,2,3]|length) }}</h3>#}
             <h3 class="total-dataset">{{ '{0:,}'.format(g.datasets|length) }}</h3>

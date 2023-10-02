@@ -158,12 +158,7 @@ msgstr "المعارض"
 msgid "A joint project of the Confederation and the cantons"
 msgstr "مشروع مشترك بين الاتحاد والكانتونات"
 
-#: ckanext/theme/templates/home/index.html:143
-#, fuzzy
-#| msgid "" "The  portal is a joint project of the Confederation, cantons,
-#| communes " "and <br> other organizations with a mandate from the state. It
-#| makes open" " government data available <br> to the general public in a
-#| central " "catalogue is operated by the Federal <br> Statistical Office."
+
 msgid ""
 "The portal is a joint project of the Confederation, cantons, communes and"
 " <br> other organizations with a mandate from the state. It makes open "

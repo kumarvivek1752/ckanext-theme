@@ -157,17 +157,26 @@ align-items: center;
 /* un-hero section */
 
 .un-hero-section {
-    padding: 2.5rem;
+
     background-color: var(--green);
-    height: 332px;
+    height: 450px;
     max-width: 100vw;
     display: flex;
     justify-content: space-evenly;
 }
 
-/* .un-hero-intro {
-    margin-top: 45px;
-} */
+
+
+.un-hero--intro {
+    padding-top: 7.5rem;
+    background-image: url(https://img.icons8.com/ios-filled/450/117b74/world.png);
+    background-repeat: no-repeat;
+
+}
+.un-hero-intro {
+    padding-top: 7.5rem;
+
+}
 
 .total-dataset {
     color: var(--light-grey);
