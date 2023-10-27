@@ -1,25 +1,24 @@
 {#
-  Displays a sidebard module with information about group.
+Displays a sidebard module with information about group.
 
-  group_type    - The type of group.
+group_type - The type of group.
 
-  Example:
+Example:
 
-  {% snippet "group/snippets/helper.html", group_type=group_type %}
+{% snippet "group/snippets/helper.html", group_type=group_type %}
 
-  {% ckan_extends %}
-  <i class="fa fa-info-circle"></i>
-  #}
+{% ckan_extends %}
+<i class="fa fa-info-circle"></i>
+<div class="module module-narrow module-shallow">
+  <h2 class="module-heading">
 
-  <div class="module module-narrow module-shallow">
-    <h2 class="module-heading">
-      
-      {{ _('') }}
-    </h2>
-    <div class="module-content">
-      <p>
-        {% trans %}.
-        {% endtrans %}
-      </p>
-    </div>
+    {{ _('') }}
+  </h2>
+  <div class="module-content">
+    <p>
+      {% trans %}.
+      {% endtrans %}
+    </p>
   </div>
+</div>
+#}
