@@ -32,17 +32,17 @@ Example:
       <a href="{{ h.url_for('%s.read' % package.type, id=package.name) }}">
 
         {% if request.environ.CKAN_LANG =='en' %}
-        {{ package.title_translated.en |truncate(80) }}
+        {{ package.title_translated.en | default(title) |truncate(80) }}
         {% elif request.environ.CKAN_LANG =='fr' %}
-        {{ package.title_translated.fr |truncate(80) }}
+        {{ package.title_translated.fr | default(title)|truncate(80) }}
         {% elif request.environ.CKAN_LANG == 'es'%}
-        {{ package.title_translated.es |truncate(80) }}
+        {{ package.title_translated.es | default(title)|truncate(80) }}
         {% elif request.environ.CKAN_LANG == 'ar'%}
-        {{ package.title_translated.ar |truncate(80) }}
+        {{ package.title_translated.ar | default(title)|truncate(80) }}
         {% elif request.environ.CKAN_LANG == 'ru'%}
-        {{ package.title_translated.ru |truncate(80) }}
+        {{ package.title_translated.ru | default(title)|truncate(80) }}
         {% elif request.environ.CKAN_LANG == 'zh_Hans_CN'%}
-        {{ package.title_translated.zh |truncate(80) }}
+        {{ package.title_translated.zh | default(title)|truncate(80) }}
         {% else %}
         {{title|truncate(80)}}
         {% endif %}
@@ -63,17 +63,17 @@ Example:
     {% if notes %}
 
     {% if request.environ.CKAN_LANG =='en' %}
-    <div>{{ package.notes_translated.en|urlize }}</div>
+    <div>{{ package.notes_translated.en|default(notes)|urlize }}</div>
     {% elif request.environ.CKAN_LANG =='fr' %}
-    <div>{{ package.notes_translated.fr|urlize }}</div>
+    <div>{{ package.notes_translated.fr|default(notes)|urlize }}</div>
     {% elif request.environ.CKAN_LANG == 'es'%}
-    <div>{{ package.notes_translated.es|urlize }}</div>
+    <div>{{ package.notes_translated.es|default(notes)|urlize }}</div>
     {% elif request.environ.CKAN_LANG == 'ar'%}
-    <div>{{ package.notes_translated.ar|urlize }}</div>
+    <div>{{ package.notes_translated.ar|default(notes)|urlize }}</div>
     {% elif request.environ.CKAN_LANG == 'ru'%}
-    <div>{{ package.notes_translated.ru|urlize }}</div>
+    <div>{{ package.notes_translated.ru|default(notes)|urlize }}</div>
     {% elif request.environ.CKAN_LANG == 'zh_Hans_CN'%}
-    <div>{{ package.notes_translated.zh|urlize }}</div>
+    <div>{{ package.notes_translated.zh|default(notes)|urlize }}</div>
     {% else %}
     <div>{{ notes|urlize }}</div>
     {% endif %}
