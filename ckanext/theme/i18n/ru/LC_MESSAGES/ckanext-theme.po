@@ -8,17 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-09-25 04:25+0000\n"
+"POT-Creation-Date: 2023-11-08 14:43+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
 "Language-Team: ru <LL@li.org>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ckanext/theme/logic/validators.py:6
 msgid "Required"
@@ -79,8 +79,8 @@ msgid "on a healthy planet"
 msgstr "на здоровой планете"
 
 #: ckanext/theme/templates/header.html:128
-#: ckanext/theme/templates/home/index.html:20
-#: ckanext/theme/templates/home/index.html:125
+#: ckanext/theme/templates/home/index.html:19
+#: ckanext/theme/templates/home/index.html:124
 msgid "Datasets"
 msgstr "Наборы данных"
 
@@ -96,10 +96,6 @@ msgstr "Группы"
 msgid "About"
 msgstr "О себе"
 
-#: ckanext/theme/templates/group/snippets/helper.html:21
-msgid "."
-msgstr ""
-
 #: ckanext/theme/templates/home/index.html:3
 msgid "E.g. environment"
 msgstr "Например. "
@@ -112,52 +108,52 @@ msgstr "Изучите каталог <br> данных ООН"
 msgid "Learn UN Data Portal"
 msgstr "Изучите портал данных"
 
-#: ckanext/theme/templates/home/index.html:25
-#: ckanext/theme/templates/home/index.html:27
+#: ckanext/theme/templates/home/index.html:24
+#: ckanext/theme/templates/home/index.html:26
 msgid "Search datasets"
 msgstr "Поиск наборов данных"
 
-#: ckanext/theme/templates/home/index.html:44
+#: ckanext/theme/templates/home/index.html:43
 msgid "Access the data catalogue using the API"
 msgstr "Доступ к каталогу данных с помощью API."
 
-#: ckanext/theme/templates/home/index.html:57
+#: ckanext/theme/templates/home/index.html:56
 msgid ""
 "Most Viewed\n"
 "                        Datasets"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:73
+#: ckanext/theme/templates/home/index.html:72
 msgid "Recently Added Datasets"
 msgstr "Недавно добавленные наборы данных"
 
-#: ckanext/theme/templates/home/index.html:88
+#: ckanext/theme/templates/home/index.html:87
 msgid "Datasets by Organisation"
 msgstr "Наборы данных по организациям"
 
-#: ckanext/theme/templates/home/index.html:109
-#| msgid "Datasets by Organisation"
+# | msgid "Datasets by Organisation"
+#: ckanext/theme/templates/home/index.html:108
 msgid "Datasets by <br>Groups"
 msgstr "Наборы данных по организациям"
 
-#: ckanext/theme/templates/home/index.html:129
-#| msgid "Organizations"
+# | msgid "Organizations"
+#: ckanext/theme/templates/home/index.html:128
 msgid "organizations"
 msgstr "Организации"
 
-#: ckanext/theme/templates/home/index.html:133
+#: ckanext/theme/templates/home/index.html:132
 msgid "Categories"
 msgstr "Категории"
 
-#: ckanext/theme/templates/home/index.html:137
+#: ckanext/theme/templates/home/index.html:136
 msgid "Showcases"
 msgstr "Витрины"
 
-#: ckanext/theme/templates/home/index.html:142
+#: ckanext/theme/templates/home/index.html:141
 msgid "A joint project of the Confederation and the cantons"
 msgstr "Совместный проект Конфедерации и кантонов."
 
-
+#: ckanext/theme/templates/home/index.html:142
 msgid ""
 "The portal is a joint project of the Confederation, cantons, communes and"
 " <br> other organizations with a mandate from the state. It makes open "
@@ -167,17 +163,52 @@ msgstr ""
 "Портал является совместным проектом Конфедерации, кантонов, <br> коммун и"
 " других организаций с мандатом государства. "
 
-#: ckanext/theme/templates/home/index.html:165
+#: ckanext/theme/templates/home/index.html:164
 msgid "Get involved"
 msgstr "Принимайте участие"
 
-#: ckanext/theme/templates/home/index.html:168
+#: ckanext/theme/templates/home/index.html:167
 msgid "Learn to publish data"
 msgstr "Научитесь публиковать"
 
-#: ckanext/theme/templates/home/index.html:169
+#: ckanext/theme/templates/home/index.html:168
 msgid "Share Your Showcase"
 msgstr "Поделитесь своей "
+
+#: ckanext/theme/templates/home/snippets/about_text.html:1
+msgid ""
+"The CKAN Data Portals platform serves as an integral component of the "
+"OICT Data Architecture implementation within the United Nations. Its "
+"primary objective is to promote the effortless<br><br> exchange of public"
+" datasets among the various UN Secretariat Departments and Offices, "
+"making data sharing accessible to individuals with varying technical "
+"expertise.<br><br> This inclusive approach not only streamlines data "
+"dissemination but also fosters a culture of collaboration and knowledge "
+"sharing across the organization. This dynamic platform is based on "
+"CKAN,the world's leading open-source data portal platform. CKAN's is "
+"aimed at data publishers wanting to make their data open and available. "
+"This will empower users to not only share their datasets with ease but "
+"also to discover and explore the wealth of data available. <br><br> It "
+"offers a wide range of features and tools that enhance data "
+"accessibility,curation, and analysis, making it an indispensable resource"
+" for the UN community as they work towards their collective goals.<br>"
+msgstr ""
+"Платформа CKAN Data Portals является неотъемлемым компонентом"
+"Внедрение архитектуры данных OICT в Организации Объединенных Наций. Это "
+"Основная цель – способствовать легкому<br><br> обмену информацией"
+"наборы данных между различными департаментами и управлениями Секретариата ООН,"
+"сделать обмен данными доступным для людей с различными техническими "
+"экспертиза.<br><br> Этот инклюзивный подход не только оптимизирует данные "
+"распространение, но и способствует развитию культуры сотрудничества и знаний"
+"совместное использование во всей организации. Эта динамическая платформа основана на "
+"CKAN, ведущая в мире платформа портала данных с открытым исходным кодом. CKAN — это "
+"направлено на издателей данных, желающих сделать свои данные открытыми и доступными»."
+"Это позволит пользователям не только с легкостью делиться своими наборами данных, но и"
+"а также обнаружить и изучить множество доступных данных. <br><br> Это "
+"предлагает широкий спектр функций и инструментов, улучшающих качество данных"
+"доступность, курирование и анализ, что делает его незаменимым ресурсом"
+"для сообщества ООН, пока они работают над достижением своих коллективных целей.<br>"
+
 
 #: ckanext/theme/templates/home/snippets/promoted.html:8
 msgid "Welcome to CKAN nnnn"
@@ -192,6 +223,95 @@ msgstr "Это хороший вводный абзац о CKAN или о сай
 #: ckanext/theme/templates/home/snippets/promoted.html:19
 msgid "This is a featured section"
 msgstr "Это избранный раздел."
+
+#: ckanext/theme/templates/package/read.html:9
+#: ckanext/theme/templates/snippets/package_item.html:27
+msgid "Private"
+msgstr ""
+
+#: ckanext/theme/templates/package/read.html:16
+#: ckanext/theme/templates/snippets/package_item.html:54
+msgid "Draft"
+msgstr ""
+
+#: ckanext/theme/templates/package/read.html:19
+#: ckanext/theme/templates/snippets/package_item.html:56
+msgid "Deleted"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:6
+msgid "Additional Info"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:10
+msgid "Field tttt"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:11
+msgid "Value"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:19
+msgid "Source"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:34
+#: ckanext/theme/templates/package/snippets/additional_info.html:40
+msgid "Author"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:47
+#: ckanext/theme/templates/package/snippets/additional_info.html:53
+msgid "Maintainer"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:60
+msgid "Version"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:67
+msgid "State"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:73
+msgid "Last Updated"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:82
+msgid "Created"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:91
+msgid "Title"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:39
+msgid "Explore"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:49
+msgid "Preview"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:52
+msgid "More information"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:63
+msgid "Download"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:66
+msgid "Go to resource"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:72
+msgid "Edit resource"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:75
+msgid "Views"
+msgstr ""
 
 #~ msgid ""
 #~ "The opendata.swiss portal is a joint "
@@ -240,4 +360,7 @@ msgstr "Это избранный раздел."
 # | msgid "Organizations"
 #~ msgid "orginatzation"
 #~ msgstr "Организации"
+
+#~ msgid "."
+#~ msgstr ""
 

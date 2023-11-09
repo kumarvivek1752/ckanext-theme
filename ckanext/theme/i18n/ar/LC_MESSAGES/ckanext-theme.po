@@ -8,17 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-09-25 04:25+0000\n"
+"POT-Creation-Date: 2023-11-08 14:43+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
 "Language-Team: ar <LL@li.org>\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
-"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5)\n"
+"n%100>=3 && n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ckanext/theme/logic/validators.py:6
 msgid "Required"
@@ -79,8 +79,8 @@ msgid "on a healthy planet"
 msgstr "على كوكب سليم"
 
 #: ckanext/theme/templates/header.html:128
-#: ckanext/theme/templates/home/index.html:20
-#: ckanext/theme/templates/home/index.html:125
+#: ckanext/theme/templates/home/index.html:19
+#: ckanext/theme/templates/home/index.html:124
 msgid "Datasets"
 msgstr "مجموعات البيانات"
 
@@ -96,10 +96,6 @@ msgstr "المجموعات"
 msgid "About"
 msgstr "حول"
 
-#: ckanext/theme/templates/group/snippets/helper.html:21
-msgid "."
-msgstr ""
-
 #: ckanext/theme/templates/home/index.html:3
 msgid "E.g. environment"
 msgstr "على سبيل المثال. "
@@ -112,53 +108,52 @@ msgstr "استكشف كتالوج  <br>بيانات الأمم المتحدة"
 msgid "Learn UN Data Portal"
 msgstr "تعرف على بوابة المتحدة"
 
-#: ckanext/theme/templates/home/index.html:25
-#: ckanext/theme/templates/home/index.html:27
+#: ckanext/theme/templates/home/index.html:24
+#: ckanext/theme/templates/home/index.html:26
 msgid "Search datasets"
 msgstr "بحث في مجموعات البيانات"
 
-#: ckanext/theme/templates/home/index.html:44
+#: ckanext/theme/templates/home/index.html:43
 msgid "Access the data catalogue using the API"
 msgstr "الوصول إلى كتالوج البيانات باستخدام API"
 
-#: ckanext/theme/templates/home/index.html:57
+#: ckanext/theme/templates/home/index.html:56
 msgid ""
 "Most Viewed\n"
 "                        Datasets"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:73
+#: ckanext/theme/templates/home/index.html:72
 msgid "Recently Added Datasets"
 msgstr "مجموعات البيانات المضافة مؤخرا"
 
-#: ckanext/theme/templates/home/index.html:88
+#: ckanext/theme/templates/home/index.html:87
 msgid "Datasets by Organisation"
 msgstr "مجموعات البيانات حسب المنظمة"
 
-#: ckanext/theme/templates/home/index.html:109
-
+#: ckanext/theme/templates/home/index.html:108
 msgid "Datasets by <br>Groups"
 msgstr "مجموعات البيانات حسب المنظمة"
 
-#: ckanext/theme/templates/home/index.html:129
+# | msgid "Organizations"
+#: ckanext/theme/templates/home/index.html:128
 #, fuzzy
-#| msgid "Organizations"
 msgid "organizations"
 msgstr "المنظمات"
 
-#: ckanext/theme/templates/home/index.html:133
+#: ckanext/theme/templates/home/index.html:132
 msgid "Categories"
 msgstr "الفئات"
 
-#: ckanext/theme/templates/home/index.html:137
+#: ckanext/theme/templates/home/index.html:136
 msgid "Showcases"
 msgstr "المعارض"
 
-#: ckanext/theme/templates/home/index.html:142
+#: ckanext/theme/templates/home/index.html:141
 msgid "A joint project of the Confederation and the cantons"
 msgstr "مشروع مشترك بين الاتحاد والكانتونات"
 
-
+#: ckanext/theme/templates/home/index.html:142
 msgid ""
 "The portal is a joint project of the Confederation, cantons, communes and"
 " <br> other organizations with a mandate from the state. It makes open "
@@ -168,17 +163,51 @@ msgstr ""
 "البوابة هي مشروع مشترك بين الاتحاد  <br>والكانتونات والبلديات ومنظمات "
 "أخرى بتفويض من الدولة. "
 
-#: ckanext/theme/templates/home/index.html:165
+#: ckanext/theme/templates/home/index.html:164
 msgid "Get involved"
 msgstr "شارك"
 
-#: ckanext/theme/templates/home/index.html:168
+#: ckanext/theme/templates/home/index.html:167
 msgid "Learn to publish data"
 msgstr "تعلم كيفية نشر البيانات"
 
-#: ckanext/theme/templates/home/index.html:169
+#: ckanext/theme/templates/home/index.html:168
 msgid "Share Your Showcase"
 msgstr "شارك معرضك"
+
+#: ckanext/theme/templates/home/snippets/about_text.html:1
+msgid ""
+"The CKAN Data Portals platform serves as an integral component of the "
+"OICT Data Architecture implementation within the United Nations. Its "
+"primary objective is to promote the effortless<br><br> exchange of public"
+" datasets among the various UN Secretariat Departments and Offices, "
+"making data sharing accessible to individuals with varying technical "
+"expertise.<br><br> This inclusive approach not only streamlines data "
+"dissemination but also fosters a culture of collaboration and knowledge "
+"sharing across the organization. This dynamic platform is based on "
+"CKAN,the world's leading open-source data portal platform. CKAN's is "
+"aimed at data publishers wanting to make their data open and available. "
+"This will empower users to not only share their datasets with ease but "
+"also to discover and explore the wealth of data available. <br><br> It "
+"offers a wide range of features and tools that enhance data "
+"accessibility,curation, and analysis, making it an indispensable resource"
+" for the UN community as they work towards their collective goals.<br>"
+msgstr ""
+"تعمل منصة بوابات بيانات CKAN بمثابة جزء لا يتجزأ من "
+"تنفيذ بنية بيانات OICT داخل الأمم المتحدة. "
+"الهدف الأساسي هو تعزيز التبادل العام السهل<br><br>"
+"مجموعات البيانات بين مختلف إدارات ومكاتب الأمانة العامة للأمم المتحدة،"
+"جعل تبادل البيانات في متناول الأفراد ذوي المهارات الفنية المختلفة"
+"الخبرة.<br><br> لا يؤدي هذا النهج الشامل إلى تبسيط البيانات فحسب "
+"النشر ولكنه يعزز أيضًا ثقافة التعاون والمعرفة "
+"المشاركة عبر المؤسسة. يعتمد هذا النظام الأساسي الديناميكي على "
+"CKAN، منصة بوابة البيانات مفتوحة المصدر الرائدة في العالم. CKAN هي "
+"تستهدف ناشري البيانات الراغبين في جعل بياناتهم مفتوحة ومتاحة."
+"سيعمل هذا على تمكين المستخدمين ليس فقط من مشاركة مجموعات البيانات الخاصة بهم بسهولة ولكن أيضًا"
+"أيضًا لاكتشاف واستكشاف ثروة البيانات المتاحة. <br><br> إنها "
+"يقدم مجموعة واسعة من الميزات والأدوات التي تعمل على تحسين البيانات"
+"إمكانية الوصول إليه وتنظيمه وتحليله، مما يجعله موردًا لا غنى عنه"
+" لمجتمع الأمم المتحدة أثناء عمله لتحقيق أهدافه الجماعية.<br>"
 
 #: ckanext/theme/templates/home/snippets/promoted.html:8
 msgid "Welcome to CKAN nnnn"
@@ -193,6 +222,95 @@ msgstr "هذه فقرة تمهيدية لطيفة عن CKAN أو الموقع ب
 #: ckanext/theme/templates/home/snippets/promoted.html:19
 msgid "This is a featured section"
 msgstr "هذا قسم مميز"
+
+#: ckanext/theme/templates/package/read.html:9
+#: ckanext/theme/templates/snippets/package_item.html:27
+msgid "Private"
+msgstr ""
+
+#: ckanext/theme/templates/package/read.html:16
+#: ckanext/theme/templates/snippets/package_item.html:54
+msgid "Draft"
+msgstr ""
+
+#: ckanext/theme/templates/package/read.html:19
+#: ckanext/theme/templates/snippets/package_item.html:56
+msgid "Deleted"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:6
+msgid "Additional Info"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:10
+msgid "Field tttt"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:11
+msgid "Value"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:19
+msgid "Source"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:34
+#: ckanext/theme/templates/package/snippets/additional_info.html:40
+msgid "Author"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:47
+#: ckanext/theme/templates/package/snippets/additional_info.html:53
+msgid "Maintainer"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:60
+msgid "Version"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:67
+msgid "State"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:73
+msgid "Last Updated"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:82
+msgid "Created"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/additional_info.html:91
+msgid "Title"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:39
+msgid "Explore"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:49
+msgid "Preview"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:52
+msgid "More information"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:63
+msgid "Download"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:66
+msgid "Go to resource"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:72
+msgid "Edit resource"
+msgstr ""
+
+#: ckanext/theme/templates/package/snippets/resource_item.html:75
+msgid "Views"
+msgstr ""
 
 #~ msgid ""
 #~ "The opendata.swiss portal is a joint "
@@ -240,4 +358,7 @@ msgstr "هذا قسم مميز"
 # | msgid "Organizations"
 #~ msgid "orginatzation"
 #~ msgstr "المنظمات"
+
+#~ msgid "."
+#~ msgstr ""
 
