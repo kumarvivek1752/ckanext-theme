@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-11-08 14:43+0000\n"
+"POT-Creation-Date: 2023-11-23 03:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: ckanext/theme/logic/validators.py:6
 msgid "Required"
@@ -74,8 +74,8 @@ msgid "on a healthy planet"
 msgstr ""
 
 #: ckanext/theme/templates/header.html:128
-#: ckanext/theme/templates/home/index.html:19
-#: ckanext/theme/templates/home/index.html:124
+#: ckanext/theme/templates/home/index.html:20
+#: ckanext/theme/templates/home/index.html:126
 msgid "Datasets"
 msgstr ""
 
@@ -96,57 +96,59 @@ msgid "E.g. environment"
 msgstr ""
 
 #: ckanext/theme/templates/home/index.html:12
-msgid "Explore UN <br> Data Catalogue"
+msgid "Explore<br> Data Catalogue"
 msgstr ""
 
 #: ckanext/theme/templates/home/index.html:13
-msgid "Learn UN Data Portal"
+msgid "Learn Data Portal"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:24
-#: ckanext/theme/templates/home/index.html:26
+#: ckanext/theme/templates/home/index.html:25
+#: ckanext/theme/templates/home/index.html:27
 msgid "Search datasets"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:43
+#: ckanext/theme/templates/home/index.html:44
 msgid "Access the data catalogue using the API"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:56
+#: ckanext/theme/templates/home/index.html:57
 msgid ""
 "Most Viewed\n"
 "                        Datasets"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:72
-msgid "Recently Added Datasets"
+#: ckanext/theme/templates/home/index.html:73
+msgid ""
+"Recently\n"
+"                        Added Datasets"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:87
+#: ckanext/theme/templates/home/index.html:89
 msgid "Datasets by Organisation"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:108
+#: ckanext/theme/templates/home/index.html:110
 msgid "Datasets by <br>Groups"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:128
+#: ckanext/theme/templates/home/index.html:130
 msgid "organizations"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:132
+#: ckanext/theme/templates/home/index.html:134
 msgid "Categories"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:136
+#: ckanext/theme/templates/home/index.html:138
 msgid "Showcases"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:141
+#: ckanext/theme/templates/home/index.html:143
 msgid "A joint project of the Confederation and the cantons"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:142
+#: ckanext/theme/templates/home/index.html:144
 msgid ""
 "The portal is a joint project of the Confederation, cantons, communes and "
 "<br> other organizations with a mandate from the state. It makes open "
@@ -154,15 +156,15 @@ msgid ""
 "is operated by the Federal <br> Statistical Office."
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:164
+#: ckanext/theme/templates/home/index.html:166
 msgid "Get involved"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:167
+#: ckanext/theme/templates/home/index.html:169
 msgid "Learn to publish data"
 msgstr ""
 
-#: ckanext/theme/templates/home/index.html:168
+#: ckanext/theme/templates/home/index.html:170
 msgid "Share Your Showcase"
 msgstr ""
 
@@ -170,9 +172,9 @@ msgstr ""
 msgid ""
 "The CKAN Data Portals platform serves as an integral component of the OICT "
 "Data Architecture implementation within the United Nations. Its primary "
-"objective is to promote the effortless<br><br> exchange of public datasets "
-"among the various UN Secretariat Departments and Offices, making data sharing"
-" accessible to individuals with varying technical expertise.<br><br> This "
+"objective is to promote the effortless exchange of public datasets among the "
+"various UN Secretariat Departments and Offices, making data sharing "
+"accessible to individuals with varying technical expertise.<br><br> This "
 "inclusive approach not only streamlines data dissemination but also fosters a"
 " culture of collaboration and knowledge sharing across the organization. This"
 " dynamic platform is based on CKAN,the world's leading open-source data "
@@ -219,7 +221,7 @@ msgid "Additional Info"
 msgstr ""
 
 #: ckanext/theme/templates/package/snippets/additional_info.html:10
-msgid "Field tttt"
+msgid "Field"
 msgstr ""
 
 #: ckanext/theme/templates/package/snippets/additional_info.html:11
