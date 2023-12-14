@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-11-23 03:39+0000\n"
+"POT-Creation-Date: 2023-12-14 03:38+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -100,8 +100,8 @@ msgid "E.g. environment"
 msgstr "Por ej. "
 
 #: ckanext/theme/templates/home/index.html:12
-msgid "Explore<br> Data Catalogue"
-msgstr "Explore el catálogo <br>de la ONU"
+msgid "Explore<br> Data Portal "
+msgstr "Explorar<br> Catálogo de datos"
 
 #: ckanext/theme/templates/home/index.html:13
 msgid "Learn Data Portal"
@@ -197,20 +197,23 @@ msgid ""
 " for the UN community as they work towards their collective goals.<br>"
 msgstr ""
 "La plataforma CKAN Data Portals sirve como un componente integral del "
-"Implementación de la Arquitectura de Datos OTIC dentro de las Naciones Unidas. Su"
-"El objetivo principal es promover el intercambio sin esfuerzo de público "
-"conjuntos de datos entre los diversos departamentos y oficinas de la Secretaría de las Naciones Unidas, haciendo"
-" intercambio de datos accesible para personas con diferentes conocimientos técnicos "
+"Implementación de la Arquitectura de Datos OTIC dentro de las Naciones "
+"Unidas. SuEl objetivo principal es promover el intercambio sin esfuerzo "
+"de público conjuntos de datos entre los diversos departamentos y oficinas"
+" de la Secretaría de las Naciones Unidas, haciendo intercambio de datos "
+"accesible para personas con diferentes conocimientos técnicos "
 "experiencia.<br><br> Este enfoque inclusivo no solo optimiza los datos "
 "difusión pero también fomenta una cultura de colaboración y conocimiento "
 "compartir en toda la organización. Esta plataforma dinámica se basa en "
-"CKAN, la plataforma de portal de datos de código abierto líder en el mundo. CKAN es "
-"dirigido a editores de datos que desean que sus datos sean abiertos y estén disponibles."
-"Esto permitirá a los usuarios no sólo compartir sus conjuntos de datos con facilidad sino también "
-"también para descubrir y explorar la riqueza de datos disponibles. <br><br> It "
-"ofrece una amplia gama de funciones y herramientas que mejoran los datos"
-"accesibilidad, curación y análisis, lo que lo convierte en un recurso indispensable"
-"para la comunidad de las Naciones Unidas mientras trabajan para alcanzar sus objetivos colectivos.<br>"
+"CKAN, la plataforma de portal de datos de código abierto líder en el "
+"mundo. CKAN es dirigido a editores de datos que desean que sus datos sean"
+" abiertos y estén disponibles.Esto permitirá a los usuarios no sólo "
+"compartir sus conjuntos de datos con facilidad sino también también para "
+"descubrir y explorar la riqueza de datos disponibles. <br><br> It ofrece "
+"una amplia gama de funciones y herramientas que mejoran los "
+"datosaccesibilidad, curación y análisis, lo que lo convierte en un "
+"recurso indispensablepara la comunidad de las Naciones Unidas mientras "
+"trabajan para alcanzar sus objetivos colectivos.<br>"
 
 #: ckanext/theme/templates/home/snippets/promoted.html:8
 msgid "Welcome to CKAN nnnn"
@@ -241,50 +244,16 @@ msgstr ""
 msgid "Deleted"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:6
+#: ckanext/theme/templates/package/snippets/additional_info.html:2
 msgid "Additional Info"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:10
+#: ckanext/theme/templates/package/snippets/additional_info.html:6
 msgid "Field"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:11
+#: ckanext/theme/templates/package/snippets/additional_info.html:7
 msgid "Value"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:19
-msgid "Source"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:34
-#: ckanext/theme/templates/package/snippets/additional_info.html:40
-msgid "Author"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:47
-#: ckanext/theme/templates/package/snippets/additional_info.html:53
-msgid "Maintainer"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:60
-msgid "Version"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:67
-msgid "State"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:73
-msgid "Last Updated"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:82
-msgid "Created"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:91
-msgid "Title"
 msgstr ""
 
 #: ckanext/theme/templates/package/snippets/resource_item.html:39
@@ -438,5 +407,29 @@ msgstr ""
 #~ "alcanzar sus objetivos colectivos.<br>"
 
 #~ msgid "Field tttt"
+#~ msgstr ""
+
+#~ msgid "Source"
+#~ msgstr ""
+
+#~ msgid "Author"
+#~ msgstr ""
+
+#~ msgid "Maintainer"
+#~ msgstr ""
+
+#~ msgid "Version"
+#~ msgstr ""
+
+#~ msgid "State"
+#~ msgstr ""
+
+#~ msgid "Last Updated"
+#~ msgstr ""
+
+#~ msgid "Created"
+#~ msgstr ""
+
+#~ msgid "Title"
 #~ msgstr ""
 

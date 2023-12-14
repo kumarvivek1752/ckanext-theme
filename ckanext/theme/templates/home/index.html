@@ -9,7 +9,7 @@
     <div class="un-hero-section">
         {# #}
         <div class="un-hero-intro">
-            <h3 class="bold-text">{{_("Explore<br> Data Catalogue")}} </h3>
+            <h3 class="bold-text">{{_("Explore<br> Data Portal ")}} </h3>
             <a href="/{{ request.environ.CKAN_LANG }}/about"><button class="un-btn">{{_("Learn Data Portal")}}
                 </button></a>
 
@@ -41,7 +41,7 @@
                         </svg>
                     </div>
                 </div>
-                <p>{{ _('Access the data catalogue using the API') }}</p>
+                <p style="display: none;">{{ _('Access the data catalogue using the API') }}</p>
             </form>
         </div>
     </div>
@@ -117,7 +117,7 @@
 
 </section>
 
-<section >
+<section>
     <div class="un-details">
 
         <div class="un-details-first">
@@ -138,7 +138,7 @@
                 <p><a href="">{{_('Showcases')}}</a> </p>
             </div>
         </div>
-        <div class="un-details-secound" style="display: none;" >
+        <div class="un-details-secound" style="display: none;">
             <div class="un-details-secound-logo">
                 <h3>{{_('A joint project of the Confederation and the cantons')}} </h3>
                 <p>{% trans %} The portal is a joint project of the Confederation, cantons, communes and

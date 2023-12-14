@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-11-23 03:39+0000\n"
+"POT-Creation-Date: 2023-12-14 03:38+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
@@ -101,7 +101,7 @@ msgid "E.g. environment"
 msgstr "على سبيل المثال. "
 
 #: ckanext/theme/templates/home/index.html:12
-msgid "Explore<br> Data Catalogue"
+msgid "Explore<br> Data Portal "
 msgstr "استكشف كتالوج  <br>بيانات الأمم المتحدة"
 
 #: ckanext/theme/templates/home/index.html:13
@@ -197,21 +197,20 @@ msgid ""
 "accessibility,curation, and analysis, making it an indispensable resource"
 " for the UN community as they work towards their collective goals.<br>"
 msgstr ""
-"تعمل منصة بوابات بيانات CKAN بمثابة جزء لا يتجزأ من "
-"تنفيذ بنية بيانات OICT داخل الأمم المتحدة. "
-"الهدف الأساسي هو تعزيز التبادل العام السهل"
-"مجموعات البيانات بين مختلف إدارات ومكاتب الأمانة العامة للأمم المتحدة، مما يجعل"
-"مشاركة البيانات في متناول الأفراد ذوي القدرات الفنية المختلفة"
-"الخبرة.<br><br> لا يؤدي هذا النهج الشامل إلى تبسيط البيانات فحسب "
-"النشر ولكنه يعزز أيضًا ثقافة التعاون والمعرفة "
-"المشاركة عبر المؤسسة. يعتمد هذا النظام الأساسي الديناميكي على "
-"CKAN، منصة بوابة البيانات مفتوحة المصدر الرائدة في العالم. CKAN هي "
-"تستهدف ناشري البيانات الراغبين في جعل بياناتهم مفتوحة ومتاحة."
-"سيعمل هذا على تمكين المستخدمين ليس فقط من مشاركة مجموعات البيانات الخاصة بهم بسهولة ولكن أيضًا"
-"أيضًا لاكتشاف واستكشاف ثروة البيانات المتاحة. <br><br> إنها "
-"يقدم مجموعة واسعة من الميزات والأدوات التي تعمل على تحسين البيانات"
-"إمكانية الوصول إليه وتنظيمه وتحليله، مما يجعله موردًا لا غنى عنه"
-" لمجتمع الأمم المتحدة أثناء عمله لتحقيق أهدافه الجماعية.<br>"
+"تعمل منصة بوابات بيانات CKAN بمثابة جزء لا يتجزأ من تنفيذ بنية بيانات "
+"OICT داخل الأمم المتحدة. الهدف الأساسي هو تعزيز التبادل العام "
+"السهلمجموعات البيانات بين مختلف إدارات ومكاتب الأمانة العامة للأمم "
+"المتحدة، مما يجعلمشاركة البيانات في متناول الأفراد ذوي القدرات الفنية "
+"المختلفةالخبرة.<br><br> لا يؤدي هذا النهج الشامل إلى تبسيط البيانات فحسب "
+"النشر ولكنه يعزز أيضًا ثقافة التعاون والمعرفة المشاركة عبر المؤسسة. يعتمد"
+" هذا النظام الأساسي الديناميكي على CKAN، منصة بوابة البيانات مفتوحة "
+"المصدر الرائدة في العالم. CKAN هي تستهدف ناشري البيانات الراغبين في جعل "
+"بياناتهم مفتوحة ومتاحة.سيعمل هذا على تمكين المستخدمين ليس فقط من مشاركة "
+"مجموعات البيانات الخاصة بهم بسهولة ولكن أيضًاأيضًا لاكتشاف واستكشاف ثروة "
+"البيانات المتاحة. <br><br> إنها يقدم مجموعة واسعة من الميزات والأدوات "
+"التي تعمل على تحسين البياناتإمكانية الوصول إليه وتنظيمه وتحليله، مما "
+"يجعله موردًا لا غنى عنه لمجتمع الأمم المتحدة أثناء عمله لتحقيق أهدافه "
+"الجماعية.<br>"
 
 #: ckanext/theme/templates/home/snippets/promoted.html:8
 msgid "Welcome to CKAN nnnn"
@@ -242,50 +241,16 @@ msgstr ""
 msgid "Deleted"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:6
+#: ckanext/theme/templates/package/snippets/additional_info.html:2
 msgid "Additional Info"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:10
+#: ckanext/theme/templates/package/snippets/additional_info.html:6
 msgid "Field"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:11
+#: ckanext/theme/templates/package/snippets/additional_info.html:7
 msgid "Value"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:19
-msgid "Source"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:34
-#: ckanext/theme/templates/package/snippets/additional_info.html:40
-msgid "Author"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:47
-#: ckanext/theme/templates/package/snippets/additional_info.html:53
-msgid "Maintainer"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:60
-msgid "Version"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:67
-msgid "State"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:73
-msgid "Last Updated"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:82
-msgid "Created"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:91
-msgid "Title"
 msgstr ""
 
 #: ckanext/theme/templates/package/snippets/resource_item.html:39
@@ -428,5 +393,29 @@ msgstr ""
 #~ "الجماعية.<br>"
 
 #~ msgid "Field tttt"
+#~ msgstr ""
+
+#~ msgid "Source"
+#~ msgstr ""
+
+#~ msgid "Author"
+#~ msgstr ""
+
+#~ msgid "Maintainer"
+#~ msgstr ""
+
+#~ msgid "Version"
+#~ msgstr ""
+
+#~ msgid "State"
+#~ msgstr ""
+
+#~ msgid "Last Updated"
+#~ msgstr ""
+
+#~ msgid "Created"
+#~ msgstr ""
+
+#~ msgid "Title"
 #~ msgstr ""
 

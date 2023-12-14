@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-11-23 03:39+0000\n"
+"POT-Creation-Date: 2023-12-14 03:38+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -100,12 +100,10 @@ msgid "E.g. environment"
 msgstr "例如"
 
 #: ckanext/theme/templates/home/index.html:12
-
-msgid "Explore<br> Data Catalogue"
-msgstr "探索联合国<br>数据目录"
+msgid "Explore<br> Data Portal "
+msgstr "探索<br>数据门户"
 
 #: ckanext/theme/templates/home/index.html:13
-
 msgid "Learn Data Portal"
 msgstr "学习联合国数据门户"
 
@@ -197,23 +195,10 @@ msgid ""
 "accessibility,curation, and analysis, making it an indispensable resource"
 " for the UN community as they work towards their collective goals.<br>"
 msgstr ""
-"CKAN 数据门户平台是 的一个组成部分"
-"OICT 数据架构在联合国内部的实施。其"
-"主要目标是促进公众轻松交流"
-"联合国秘书处各部门和办事处之间的数据集，使"
-"具有不同技术能力的个人可以访问数据共享"
-"专业知识。<br><br>这种包容性方法不仅简化了数据"
-"传播同时也培育协作和知识文化"
-"整个组织共享。这个动态平台基于"
-"CKAN，全球领先的开源数据门户平台。CKAN 是"
-"针对希望公开和可用数据的数据发布者。"
-"这将使用户不仅能够轻松共享他们的数据集，而且"
-"还可以发现和探索丰富的可用数据。<br><br> 它"
-"提供广泛的功能和工具来增强数据"
-"可访问性、管理和分析，使其成为不可或缺的资源"
-"为联合国社区努力实现共同目标。<br>"
-
-
+"CKAN 数据门户平台是 的一个组成部分OICT "
+"数据架构在联合国内部的实施。其主要目标是促进公众轻松交流联合国秘书处各部门和办事处之间的数据集，使具有不同技术能力的个人可以访问数据共享专业知识。<br><br>这种包容性方法不仅简化了数据传播同时也培育协作和知识文化整个组织共享。这个动态平台基于CKAN，全球领先的开源数据门户平台。CKAN"
+" 是针对希望公开和可用数据的数据发布者。这将使用户不仅能够轻松共享他们的数据集，而且还可以发现和探索丰富的可用数据。<br><br> "
+"它提供广泛的功能和工具来增强数据可访问性、管理和分析，使其成为不可或缺的资源为联合国社区努力实现共同目标。<br>"
 
 #: ckanext/theme/templates/home/snippets/promoted.html:8
 msgid "Welcome to CKAN nnnn"
@@ -244,50 +229,16 @@ msgstr ""
 msgid "Deleted"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:6
+#: ckanext/theme/templates/package/snippets/additional_info.html:2
 msgid "Additional Info"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:10
+#: ckanext/theme/templates/package/snippets/additional_info.html:6
 msgid "Field"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:11
+#: ckanext/theme/templates/package/snippets/additional_info.html:7
 msgid "Value"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:19
-msgid "Source"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:34
-#: ckanext/theme/templates/package/snippets/additional_info.html:40
-msgid "Author"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:47
-#: ckanext/theme/templates/package/snippets/additional_info.html:53
-msgid "Maintainer"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:60
-msgid "Version"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:67
-msgid "State"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:73
-msgid "Last Updated"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:82
-msgid "Created"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:91
-msgid "Title"
 msgstr ""
 
 #: ckanext/theme/templates/package/snippets/resource_item.html:39
@@ -404,5 +355,29 @@ msgstr ""
 #~ " 它提供广泛的功能和工具来增强数据可访问性、管理和分析，使其成为不可或缺的资源为联合国社区努力实现共同目标。<br>"
 
 #~ msgid "Field tttt"
+#~ msgstr ""
+
+#~ msgid "Source"
+#~ msgstr ""
+
+#~ msgid "Author"
+#~ msgstr ""
+
+#~ msgid "Maintainer"
+#~ msgstr ""
+
+#~ msgid "Version"
+#~ msgstr ""
+
+#~ msgid "State"
+#~ msgstr ""
+
+#~ msgid "Last Updated"
+#~ msgstr ""
+
+#~ msgid "Created"
+#~ msgstr ""
+
+#~ msgid "Title"
 #~ msgstr ""
 

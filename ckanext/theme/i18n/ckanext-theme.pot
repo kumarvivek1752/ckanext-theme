@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-11-23 03:39+0000\n"
+"POT-Creation-Date: 2023-12-14 03:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,7 +96,7 @@ msgid "E.g. environment"
 msgstr ""
 
 #: ckanext/theme/templates/home/index.html:12
-msgid "Explore<br> Data Catalogue"
+msgid "Explore<br> Data Portal "
 msgstr ""
 
 #: ckanext/theme/templates/home/index.html:13
@@ -216,50 +216,16 @@ msgstr ""
 msgid "Deleted"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:6
+#: ckanext/theme/templates/package/snippets/additional_info.html:2
 msgid "Additional Info"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:10
+#: ckanext/theme/templates/package/snippets/additional_info.html:6
 msgid "Field"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:11
+#: ckanext/theme/templates/package/snippets/additional_info.html:7
 msgid "Value"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:19
-msgid "Source"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:34
-#: ckanext/theme/templates/package/snippets/additional_info.html:40
-msgid "Author"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:47
-#: ckanext/theme/templates/package/snippets/additional_info.html:53
-msgid "Maintainer"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:60
-msgid "Version"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:67
-msgid "State"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:73
-msgid "Last Updated"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:82
-msgid "Created"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:91
-msgid "Title"
 msgstr ""
 
 #: ckanext/theme/templates/package/snippets/resource_item.html:39

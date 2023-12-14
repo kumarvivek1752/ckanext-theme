@@ -1,17 +1,61 @@
-{# 
+{#
 {% ckan_extends %}
 
-    
-    
-    extending CKAN to use super() in the blocks that the base templates will
+
+
+extending CKAN to use super() in the blocks that the base templates will
 handle #}
 <hr class="un-footer-blue-line">
 <footer class="un-footer">
-    <div class="container">
+    <div class="container-fluid">
         <!-- <p class="float-end mb-1 ">
             <a class="footer--top" href="#">Back to top</a>
         </p> -->
-        <img id="un-footer-logo" src="/assest/img/un_logo_dark-removebg-preview.png" alt="" srcset="">
+        <div class="footer--sub">
+            <img id="un-footer-logo" src="/assest/img/un_logo_dark-removebg-preview.png" alt="" srcset="">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/UN" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/UN" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/unitednations/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/user/unitednations" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
         <hr class="un-footer--hr">
-    </div>
+
+
+        <ul class="footer--link">
+            <li>
+                <a
+                    href="https://www.un.org/{% if request.environ.CKAN_LANG == 'en' %}en{% elif request.environ.CKAN_LANG == 'fr' %}fr{% elif request.environ.CKAN_LANG == 'es' %}es{% elif request.environ.CKAN_LANG == 'ru' %}ru{% elif request.environ.CKAN_LANG == 'zh_Hans_CN' %}zh{% elif request.environ.CKAN_LANG == 'ar' %}ar{% endif %}/sections/about-website/z-site-index/">_{{('A-Z
+                    Site Index')}}</a>
+            </li>
+            <li>
+                <a
+                    href="https://www.un.org/{% if request.environ.CKAN_LANG == 'en' %}en{% elif request.environ.CKAN_LANG == 'fr' %}fr{% elif request.environ.CKAN_LANG == 'es' %}es{% elif request.environ.CKAN_LANG == 'ru' %}ru{% elif request.environ.CKAN_LANG == 'zh_Hans_CN' %}zh{% elif request.environ.CKAN_LANG == 'ar' %}ar{% endif %}/contact-us/">_{{('Contact')}}</a>
+            </li>
+            <li>
+                <a
+                    href="https://www.un.org/{% if request.environ.CKAN_LANG == 'en' %}en{% elif request.environ.CKAN_LANG == 'fr' %}fr{% elif request.environ.CKAN_LANG == 'es' %}es{% elif request.environ.CKAN_LANG == 'ru' %}ru{% elif request.environ.CKAN_LANG == 'zh_Hans_CN' %}zh{% elif request.environ.CKAN_LANG == 'ar' %}ar{% endif %}/sections/about-website/copyright/">_{{('Copyright')}}</a>
+            </li>
+            <li>
+                <a
+                    href="https://www.un.org/{% if request.environ.CKAN_LANG == 'en' %}en{% elif request.environ.CKAN_LANG == 'fr' %}fr{% elif request.environ.CKAN_LANG == 'es' %}es{% elif request.environ.CKAN_LANG == 'ru' %}ru{% elif request.environ.CKAN_LANG == 'zh_Hans_CN' %}zh{% elif request.environ.CKAN_LANG == 'ar' %}ar{% endif %}/sections/about-un/frequently-asked-questions/">_{{('FAQ')}}</a>
+            </li>
+            <li>
+                <a
+                    href="https://www.un.org/{% if request.environ.CKAN_LANG == 'en' %}en{% elif request.environ.CKAN_LANG == 'fr' %}fr{% elif request.environ.CKAN_LANG == 'es' %}es{% elif request.environ.CKAN_LANG == 'ru' %}ru{% elif request.environ.CKAN_LANG == 'zh_Hans_CN' %}zh{% elif request.environ.CKAN_LANG == 'ar' %}ar{% endif %}/sections/about-website/fraud-alert/">_{{('Fraud
+                    Alert')}}</a>
+            </li>
+            <li>
+                <a
+                    href="https://www.un.org/{% if request.environ.CKAN_LANG == 'en' %}en{% elif request.environ.CKAN_LANG == 'fr' %}fr{% elif request.environ.CKAN_LANG == 'es' %}es{% elif request.environ.CKAN_LANG == 'ru' %}ru{% elif request.environ.CKAN_LANG == 'zh_Hans_CN' %}zh{% elif request.environ.CKAN_LANG == 'ar' %}ar{% endif %}/sections/about-website/privacy-notice/">_{{('Privacy
+                    Notice')}}</a>
+            </li>
+            <li>
+                <a
+                    href="https://www.un.org/{% if request.environ.CKAN_LANG == 'en' %}en{% elif request.environ.CKAN_LANG == 'fr' %}fr{% elif request.environ.CKAN_LANG == 'es' %}es{% elif request.environ.CKAN_LANG == 'ru' %}ru{% elif request.environ.CKAN_LANG == 'zh_Hans_CN' %}zh{% elif request.environ.CKAN_LANG == 'ar' %}ar{% endif %}/sections/about-website/terms-use/">_{{('Terms
+                    of Use')}}</a>
+            </li>
+        </ul>
+
 </footer>

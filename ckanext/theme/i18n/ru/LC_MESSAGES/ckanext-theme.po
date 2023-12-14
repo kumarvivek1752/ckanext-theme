@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-11-23 03:39+0000\n"
+"POT-Creation-Date: 2023-12-14 03:38+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -101,12 +101,10 @@ msgid "E.g. environment"
 msgstr "Например. "
 
 #: ckanext/theme/templates/home/index.html:12
-
-msgid "Explore<br> Data Catalogue"
-msgstr "Изучите каталог <br> данных ООН"
+msgid "Explore<br> Data Portal "
+msgstr "Исследуйте <br> портал данных"
 
 #: ckanext/theme/templates/home/index.html:13
-
 msgid "Learn Data Portal"
 msgstr "Изучите портал данных"
 
@@ -199,21 +197,23 @@ msgid ""
 "accessibility,curation, and analysis, making it an indispensable resource"
 " for the UN community as they work towards their collective goals.<br>"
 msgstr ""
-"Платформа CKAN Data Portals является неотъемлемым компонентом"
-"Внедрение архитектуры данных OICT в Организации Объединенных Наций. Это "
-"Основная цель – способствовать легкому обмену публичными"
-"наборы данных между различными департаментами и управлениями Секретариата ООН, создание"
-"обмен данными доступен для людей с различными техническими знаниями"
-"экспертиза.<br><br> Этот инклюзивный подход не только оптимизирует данные "
-"распространение, но и способствует развитию культуры сотрудничества и знаний"
-"совместное использование во всей организации. Эта динамическая платформа основана на "
-"CKAN, ведущая в мире платформа портала данных с открытым исходным кодом. CKAN — это "
-"направлено на издателей данных, желающих сделать свои данные открытыми и доступными."
-"Это позволит пользователям не только с легкостью делиться своими наборами данных, но и"
-"а также обнаружить и изучить множество доступных данных. <br><br> Это "
-"предлагает широкий спектр функций и инструментов, улучшающих качество данных"
-"доступность, курирование и анализ, что делает его незаменимым ресурсом"
-"для сообщества ООН, пока они работают над достижением своих коллективных целей.<br>"
+"Платформа CKAN Data Portals является неотъемлемым компонентомВнедрение "
+"архитектуры данных OICT в Организации Объединенных Наций. Это Основная "
+"цель – способствовать легкому обмену публичныминаборы данных между "
+"различными департаментами и управлениями Секретариата ООН, созданиеобмен "
+"данными доступен для людей с различными техническими "
+"знаниямиэкспертиза.<br><br> Этот инклюзивный подход не только "
+"оптимизирует данные распространение, но и способствует развитию культуры "
+"сотрудничества и знанийсовместное использование во всей организации. Эта "
+"динамическая платформа основана на CKAN, ведущая в мире платформа портала"
+" данных с открытым исходным кодом. CKAN — это направлено на издателей "
+"данных, желающих сделать свои данные открытыми и доступными.Это позволит "
+"пользователям не только с легкостью делиться своими наборами данных, но "
+"иа также обнаружить и изучить множество доступных данных. <br><br> Это "
+"предлагает широкий спектр функций и инструментов, улучшающих качество "
+"данныхдоступность, курирование и анализ, что делает его незаменимым "
+"ресурсомдля сообщества ООН, пока они работают над достижением своих "
+"коллективных целей.<br>"
 
 #: ckanext/theme/templates/home/snippets/promoted.html:8
 msgid "Welcome to CKAN nnnn"
@@ -244,50 +244,16 @@ msgstr ""
 msgid "Deleted"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:6
+#: ckanext/theme/templates/package/snippets/additional_info.html:2
 msgid "Additional Info"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:10
+#: ckanext/theme/templates/package/snippets/additional_info.html:6
 msgid "Field"
 msgstr ""
 
-#: ckanext/theme/templates/package/snippets/additional_info.html:11
+#: ckanext/theme/templates/package/snippets/additional_info.html:7
 msgid "Value"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:19
-msgid "Source"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:34
-#: ckanext/theme/templates/package/snippets/additional_info.html:40
-msgid "Author"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:47
-#: ckanext/theme/templates/package/snippets/additional_info.html:53
-msgid "Maintainer"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:60
-msgid "Version"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:67
-msgid "State"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:73
-msgid "Last Updated"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:82
-msgid "Created"
-msgstr ""
-
-#: ckanext/theme/templates/package/snippets/additional_info.html:91
-msgid "Title"
 msgstr ""
 
 #: ckanext/theme/templates/package/snippets/resource_item.html:39
@@ -420,8 +386,8 @@ msgstr ""
 #~ "ведущая в мире платформа портала данных"
 #~ " с открытым исходным кодом. CKAN —"
 #~ " это направлено на издателей данных, "
-#~ "желающих сделать свои данные открытыми и"
-#~ "только с легкостью делиться своими "
+#~ "желающих сделать свои данные открытыми "
+#~ "итолько с легкостью делиться своими "
 #~ "наборами данных, но иа также обнаружить"
 #~ " и изучить множество доступных данных. "
 #~ "<br><br> Это предлагает широкий спектр "
@@ -432,5 +398,29 @@ msgstr ""
 #~ " достижением своих коллективных целей.<br>"
 
 #~ msgid "Field tttt"
+#~ msgstr ""
+
+#~ msgid "Source"
+#~ msgstr ""
+
+#~ msgid "Author"
+#~ msgstr ""
+
+#~ msgid "Maintainer"
+#~ msgstr ""
+
+#~ msgid "Version"
+#~ msgstr ""
+
+#~ msgid "State"
+#~ msgstr ""
+
+#~ msgid "Last Updated"
+#~ msgstr ""
+
+#~ msgid "Created"
+#~ msgstr ""
+
+#~ msgid "Title"
 #~ msgstr ""
 
