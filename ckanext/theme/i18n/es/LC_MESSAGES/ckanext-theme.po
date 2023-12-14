@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-12-14 03:38+0000\n"
+"POT-Creation-Date: 2023-12-14 11:37+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -23,6 +23,42 @@ msgstr ""
 msgid "Required"
 msgstr "Requerido"
 
+#: ckanext/theme/templates/footer.html:29
+msgid ""
+"A-Z\n"
+"                    Site Index"
+msgstr "Índice del sitio A-Z"
+
+#: ckanext/theme/templates/footer.html:34
+msgid "Contact"
+msgstr "Contacto"
+
+#: ckanext/theme/templates/footer.html:38
+msgid "Copyright"
+msgstr "Derechos de autor"
+
+#: ckanext/theme/templates/footer.html:42
+msgid "FAQ"
+msgstr "Preguntas frecuentes"
+
+#: ckanext/theme/templates/footer.html:46
+msgid ""
+"Fraud\n"
+"                    Alert"
+msgstr "Alerta de fraude"
+
+#: ckanext/theme/templates/footer.html:51
+msgid ""
+"Privacy\n"
+"                    Notice"
+msgstr "Aviso de privacidad"
+
+#: ckanext/theme/templates/footer.html:56
+
+msgid ""
+"Terms\n"
+"                    of Use"
+msgstr "Términos de uso"
 #: ckanext/theme/templates/header.html:13
 msgid "Sysadmin settings"
 msgstr "Configuración del administrador del sistema"

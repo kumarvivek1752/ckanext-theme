@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-12-14 03:38+0000\n"
+"POT-Creation-Date: 2023-12-14 11:37+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -23,6 +23,43 @@ msgstr ""
 #: ckanext/theme/logic/validators.py:6
 msgid "Required"
 msgstr "Обязательно"
+
+#: ckanext/theme/templates/footer.html:29
+msgid ""
+"A-Z\n"
+"                    Site Index"
+msgstr "А-Я\nИндекс сайта" 
+#: ckanext/theme/templates/footer.html:34
+msgid "Contact"
+msgstr "Контакт"
+
+#: ckanext/theme/templates/footer.html:38
+msgid "Copyright"
+msgstr "Авторское право"
+
+#: ckanext/theme/templates/footer.html:42
+msgid "FAQ"
+msgstr "Часто задаваемые вопросы"
+
+#: ckanext/theme/templates/footer.html:46
+msgid ""
+"Fraud\n"
+"                    Alert"
+msgstr "Мошенничество\n"
+
+#: ckanext/theme/templates/footer.html:51
+msgid ""
+"Privacy\n"
+"                    Notice"
+msgstr "Уведомление о конфиденциальности"
+
+#: ckanext/theme/templates/footer.html:56
+
+msgid ""
+"Terms\n"
+"                    of Use"
+msgstr "Условия использования"
+
 
 #: ckanext/theme/templates/header.html:13
 msgid "Sysadmin settings"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-12-14 03:38+0000\n"
+"POT-Creation-Date: 2023-12-14 11:37+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
@@ -23,6 +23,44 @@ msgstr ""
 #: ckanext/theme/logic/validators.py:6
 msgid "Required"
 msgstr "مطلوب"
+
+#: ckanext/theme/templates/footer.html:29
+msgid ""
+"A-Z\n"
+"                    Site Index"
+msgstr "فهرس الموقع من ألف إلى ياء"
+
+#: ckanext/theme/templates/footer.html:34
+msgid "Contact"
+msgstr "اتصل بنا"
+
+#: ckanext/theme/templates/footer.html:38
+msgid "Copyright"
+msgstr " حقوق النشر"
+
+#: ckanext/theme/templates/footer.html:42
+msgid "FAQ"
+msgstr " الأسئلة الشائعة"
+
+#: ckanext/theme/templates/footer.html:46
+msgid ""
+"Fraud\n"
+"                    Alert"
+msgstr " تنبيه الاحتيال"
+
+#: ckanext/theme/templates/footer.html:51
+msgid ""
+"Privacy\n"
+"                    Notice"
+msgstr " إشعار الخصوصية"
+
+#: ckanext/theme/templates/footer.html:56
+msgid ""
+"Terms\n"
+"                    of Use"
+msgstr " شروط الاستخدام"
+
+
 
 #: ckanext/theme/templates/header.html:13
 msgid "Sysadmin settings"
@@ -141,7 +179,7 @@ msgstr "مجموعات البيانات حسب المنظمة"
 
 # | msgid "Organizations"
 #: ckanext/theme/templates/home/index.html:130
-#, fuzzy
+
 msgid "organizations"
 msgstr "المنظمات"
 
