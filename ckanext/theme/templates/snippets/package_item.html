@@ -59,7 +59,9 @@ Example:
       {% endblock %}
     </h2>
     {% endblock %}
+
     {% block notes %}
+    {#
     {% if notes %}
 
     {% if request.environ.CKAN_LANG =='en' %}
@@ -78,11 +80,10 @@ Example:
     <div>{{ notes|urlize }}</div>
     {% endif %}
 
-    {#
-    <p class="empty">{{ h.humanize_entity_type('package', package.type, 'no description') or _("There is no description
-      for this dataset") }}</p> #}
+
     {% endif %}
     {% endblock %}
+    #}
   </div>
   {% block resources %}
   {% if package.resources and not hide_resources %}
