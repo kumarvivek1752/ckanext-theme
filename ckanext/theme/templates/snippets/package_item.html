@@ -32,7 +32,7 @@ Example:
       <a href="{{ h.url_for('%s.read' % package.type, id=package.name) }}">
 
         {% if request.environ.CKAN_LANG =='en' %}
-        {{ package.title | default(title) |truncate(80) }}
+        {{ package.en_title | default(title) |truncate(80) }}
         {% elif request.environ.CKAN_LANG =='fr' %}
         {{ package.fr_title | default(title)|truncate(80) }}
         {% elif request.environ.CKAN_LANG == 'es'%}
@@ -60,30 +60,7 @@ Example:
     </h2>
     {% endblock %}
 
-    {% block notes %}
-    {#
-    {% if notes %}
 
-    {% if request.environ.CKAN_LANG =='en' %}
-    <div>{{ package.notes|default(notes)|urlize }}</div>
-    {% elif request.environ.CKAN_LANG =='fr' %}
-    <div>{{ package.fr_notes|default(notes)|urlize }}</div>
-    {% elif request.environ.CKAN_LANG == 'es'%}
-    <div>{{ package.es_notes|default(notes)|urlize }}</div>
-    {% elif request.environ.CKAN_LANG == 'ar'%}
-    <div>{{ package.ar_notes|default(notes)|urlize }}</div>
-    {% elif request.environ.CKAN_LANG == 'ru'%}
-    <div>{{ package.ru_notes|default(notes)|urlize }}</div>
-    {% elif request.environ.CKAN_LANG == 'zh_Hans_CN'%}
-    <div>{{ package.zh_notes|default(notes)|urlize }}</div>
-    {% else %}
-    <div>{{ notes|urlize }}</div>
-    {% endif %}
-
-
-    {% endif %}
-    {% endblock %}
-    #}
   </div>
   {% block resources %}
   {% if package.resources and not hide_resources %}
@@ -102,5 +79,8 @@ Example:
   {% endif %}
   {% endblock %}
   {% endblock %}
+
+
+
 </li>
 {% endblock %}

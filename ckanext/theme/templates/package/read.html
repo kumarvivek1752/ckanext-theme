@@ -11,7 +11,23 @@
 {% endif %}
 <h1>
     {% block page_heading %}
-    {{ h.dataset_display_name(pkg) }}
+    {% if request.environ.CKAN_LANG =='en' %}
+    {{pkg_dict.en_title | default(pkg_dict.title)}}
+    {% elif request.environ.CKAN_LANG =='fr' %}
+    {{pkg_dict.fr_title | default(pkg_dict.title)}}
+    {% elif request.environ.CKAN_LANG == 'es'%}
+    {{pkg_dict.es_title | default(pkg_dict.title)}}
+    {% elif request.environ.CKAN_LANG == 'ar'%}
+    {{pkg_dict.ar_title | default(pkg_dict.title)}}
+    {% elif request.environ.CKAN_LANG == 'ru'%}
+    {{pkg_dict.ru_title | default(pkg_dict.title)}}
+    {% elif request.environ.CKAN_LANG == 'zh_Hans_CN'%}
+    {{pkg_dict.zh_title | default(pkg_dict.title)}}
+    {% else %}
+    {{pkg_dict.title}}
+    {% endif %}
+
+
     {% if pkg.state.startswith('draft') %}
     [{{ _('Draft') }}]
     {% endif %}

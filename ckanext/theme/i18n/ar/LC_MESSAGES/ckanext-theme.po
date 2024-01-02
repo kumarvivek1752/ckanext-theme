@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-12-14 11:37+0000\n"
+"POT-Creation-Date: 2023-12-20 05:31+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ar\n"
@@ -59,8 +59,6 @@ msgid ""
 "Terms\n"
 "                    of Use"
 msgstr " شروط الاستخدام"
-
-
 
 #: ckanext/theme/templates/header.html:13
 msgid "Sysadmin settings"
@@ -179,13 +177,14 @@ msgstr "مجموعات البيانات حسب المنظمة"
 
 # | msgid "Organizations"
 #: ckanext/theme/templates/home/index.html:130
-
 msgid "organizations"
 msgstr "المنظمات"
 
 #: ckanext/theme/templates/home/index.html:134
-msgid "Categories"
-msgstr "الفئات"
+#, fuzzy
+#| msgid "Groups"
+msgid "groups"
+msgstr "المجموعات"
 
 #: ckanext/theme/templates/home/index.html:138
 msgid "Showcases"
@@ -269,12 +268,12 @@ msgstr "هذا قسم مميز"
 msgid "Private"
 msgstr ""
 
-#: ckanext/theme/templates/package/read.html:16
+#: ckanext/theme/templates/package/read.html:32
 #: ckanext/theme/templates/snippets/package_item.html:54
 msgid "Draft"
 msgstr ""
 
-#: ckanext/theme/templates/package/read.html:19
+#: ckanext/theme/templates/package/read.html:35
 #: ckanext/theme/templates/snippets/package_item.html:56
 msgid "Deleted"
 msgstr ""
@@ -457,3 +456,33 @@ msgstr ""
 #~ msgid "Title"
 #~ msgstr ""
 
+#~ msgid "Categories"
+#~ msgstr "الفئات"
+
+
+
+
+msgid "Russian Dataset Title"
+msgstr "عنوان مجموعة البيانات الروسية"
+msgid "Russian Description"
+msgstr "الوصف الروسي"
+msgid "Spanish Dataset Title"
+msgstr "عنوان مجموعة البيانات الإسبانية"
+msgid "Spanish Description"
+msgstr "الوصف الإسباني"
+msgid "Chinese Dataset Title"
+msgstr "عنوان مجموعة البيانات الصينية"
+msgid "Chinese Description"
+msgstr "الوصف الصيني"
+msgid "Arabic Dataset Title"
+msgstr "عنوان مجموعة البيانات العربية"
+msgid "Arabic Description"
+msgstr "الوصف العربي"
+msgid "English Dataset Title"
+msgstr "عنوان مجموعة البيانات الإنجليزية"
+msgid "English Description"
+msgstr "الوصف الإنجليزي"
+msgid "French Dataset Title"
+msgstr "عنوان مجموعة البيانات الفرنسية"
+msgid "French Description"
+msgstr "الوصف الفرنسي"

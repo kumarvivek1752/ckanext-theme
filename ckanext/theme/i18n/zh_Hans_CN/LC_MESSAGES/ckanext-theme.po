@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-12-14 11:37+0000\n"
+"POT-Creation-Date: 2023-12-20 05:31+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -27,7 +27,9 @@ msgstr "必填"
 msgid ""
 "A-Z\n"
 "                    Site Index"
-msgstr "A-Z\n 网站索引"
+msgstr ""
+"A-Z\n"
+" 网站索引"
 
 #: ckanext/theme/templates/footer.html:34
 msgid "Contact"
@@ -54,12 +56,10 @@ msgid ""
 msgstr "隐私\n"
 
 #: ckanext/theme/templates/footer.html:56
-
 msgid ""
 "Terms\n"
 "                    of Use"
 msgstr "使用条款\n"
-
 
 #: ckanext/theme/templates/header.html:13
 msgid "Sysadmin settings"
@@ -184,8 +184,10 @@ msgid "organizations"
 msgstr "组织"
 
 #: ckanext/theme/templates/home/index.html:134
-msgid "Categories"
-msgstr "类别"
+#, fuzzy
+#| msgid "Groups"
+msgid "groups"
+msgstr "团体"
 
 #: ckanext/theme/templates/home/index.html:138
 msgid "Showcases"
@@ -257,12 +259,12 @@ msgstr "这是一个特色部分"
 msgid "Private"
 msgstr ""
 
-#: ckanext/theme/templates/package/read.html:16
+#: ckanext/theme/templates/package/read.html:32
 #: ckanext/theme/templates/snippets/package_item.html:54
 msgid "Draft"
 msgstr ""
 
-#: ckanext/theme/templates/package/read.html:19
+#: ckanext/theme/templates/package/read.html:35
 #: ckanext/theme/templates/snippets/package_item.html:56
 msgid "Deleted"
 msgstr ""
@@ -419,3 +421,33 @@ msgstr ""
 #~ msgid "Title"
 #~ msgstr ""
 
+#~ msgid "Categories"
+#~ msgstr "类别"
+
+
+
+msgid "Russian Dataset Title"
+msgstr "俄语数据集标题"
+msgid "Russian Description"
+msgstr "俄语描述"
+msgid "Spanish Dataset Title"
+msgstr "西班牙语数据集标题"
+msgid "Spanish Description"
+msgstr "西班牙语描述"
+msgid "Chinese Dataset Title"
+msgstr "中文数据集标题"
+msgid "Chinese Description"
+msgstr "中文描述"
+msgid "Arabic Dataset Title"
+msgstr "阿拉伯语数据集标题"
+
+msgid "Arabic Description"
+msgstr "阿拉伯语描述"
+msgid "English Dataset Title"
+msgstr "英语数据集标题"
+msgid "English Description"
+msgstr "英语描述"
+msgid "French Dataset Title"
+msgstr "法语数据集标题"
+msgid "French Description"
+msgstr "法语描述"

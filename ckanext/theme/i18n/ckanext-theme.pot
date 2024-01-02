@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-12-14 11:37+0000\n"
+"POT-Creation-Date: 2023-12-20 05:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,7 +173,7 @@ msgid "organizations"
 msgstr ""
 
 #: ckanext/theme/templates/home/index.html:134
-msgid "Categories"
+msgid "groups"
 msgstr ""
 
 #: ckanext/theme/templates/home/index.html:138
@@ -242,12 +242,12 @@ msgstr ""
 msgid "Private"
 msgstr ""
 
-#: ckanext/theme/templates/package/read.html:16
+#: ckanext/theme/templates/package/read.html:32
 #: ckanext/theme/templates/snippets/package_item.html:54
 msgid "Draft"
 msgstr ""
 
-#: ckanext/theme/templates/package/read.html:19
+#: ckanext/theme/templates/package/read.html:35
 #: ckanext/theme/templates/snippets/package_item.html:56
 msgid "Deleted"
 msgstr ""

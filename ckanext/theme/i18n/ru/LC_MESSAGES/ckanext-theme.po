@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-theme 0.0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-12-14 11:37+0000\n"
+"POT-Creation-Date: 2023-12-20 05:31+0000\n"
 "PO-Revision-Date: 2023-09-08 04:55+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -28,7 +28,10 @@ msgstr "Обязательно"
 msgid ""
 "A-Z\n"
 "                    Site Index"
-msgstr "А-Я\nИндекс сайта" 
+msgstr ""
+"А-Я\n"
+"Индекс сайта"
+
 #: ckanext/theme/templates/footer.html:34
 msgid "Contact"
 msgstr "Контакт"
@@ -54,12 +57,10 @@ msgid ""
 msgstr "Уведомление о конфиденциальности"
 
 #: ckanext/theme/templates/footer.html:56
-
 msgid ""
 "Terms\n"
 "                    of Use"
 msgstr "Условия использования"
-
 
 #: ckanext/theme/templates/header.html:13
 msgid "Sysadmin settings"
@@ -183,8 +184,10 @@ msgid "organizations"
 msgstr "Организации"
 
 #: ckanext/theme/templates/home/index.html:134
-msgid "Categories"
-msgstr "Категории"
+#, fuzzy
+#| msgid "Groups"
+msgid "groups"
+msgstr "Группы"
 
 #: ckanext/theme/templates/home/index.html:138
 msgid "Showcases"
@@ -271,12 +274,12 @@ msgstr "Это избранный раздел."
 msgid "Private"
 msgstr ""
 
-#: ckanext/theme/templates/package/read.html:16
+#: ckanext/theme/templates/package/read.html:32
 #: ckanext/theme/templates/snippets/package_item.html:54
 msgid "Draft"
 msgstr ""
 
-#: ckanext/theme/templates/package/read.html:19
+#: ckanext/theme/templates/package/read.html:35
 #: ckanext/theme/templates/snippets/package_item.html:56
 msgid "Deleted"
 msgstr ""
@@ -461,3 +464,32 @@ msgstr ""
 #~ msgid "Title"
 #~ msgstr ""
 
+#~ msgid "Categories"
+#~ msgstr "Категории"
+
+
+
+msgid "Russian Dataset Title"
+msgstr "Русское название набора данных"
+msgid "Russian Description"
+msgstr "Русское описание"
+msgid "Spanish Dataset Title"
+msgstr "Испанское название набора данных"
+msgid "Spanish Description"
+msgstr "Испанское описание"
+msgid "Chinese Dataset Title"
+msgstr "Китайское название набора данных"
+msgid "Chinese Description"
+msgstr "Китайское описание"
+msgid "Arabic Dataset Title"
+msgstr "Арабское название набора данных"
+msgid "Arabic Description"
+msgstr "Арабское описание"
+msgid "English Dataset Title"
+msgstr "Английское название набора данных"
+msgid "English Description"
+msgstr "Английское описание"
+msgid "French Dataset Title"
+msgstr "Французское название набора данных"
+msgid "French Description"
+msgstr "Французское описание"

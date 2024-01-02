@@ -19,7 +19,7 @@
             </tr>
             <tr>
                 <th scope="row" class="dataset-label">Tags</th>
-                <td class="dataset-details">{{pkg_dict.tag_string}}</td>
+                <td class="dataset-details">{{pkg_dict.en_tag_string}}</td>
             </tr>
             <tr>
                 <th scope="row" class="dataset-label">Url</th>
@@ -48,6 +48,111 @@
             <tr>
                 <th scope="row" class="dataset-label">Maintainer Email</th>
                 <td class="dataset-details">{{pkg_dict.maintainer_email}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Close Date</th>
+                <td class="dataset-details">{{pkg_dict.en_close_date}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Database Management System </th>
+                <td class="dataset-details">{{pkg_dict.en_database_management_system }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Dataset Owner</th>
+                <td class="dataset-details">{{pkg_dict.en_dataset_owner }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Display Name</th>
+                <td class="dataset-details">{{pkg_dict.en_display_name }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">En Entity</th>
+                <td class="dataset-details">{{pkg_dict.en_entity }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Maintainer Email</th>
+                <td class="dataset-details">{{pkg_dict.en_entity_id }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Frequency</th>
+                <td class="dataset-details">{{pkg_dict.en_frequency }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Function</th>
+                <td class="dataset-details">{{pkg_dict.en_function }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Language</th>
+                <td class="dataset-details">{{pkg_dict.en_language }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Link To Data</th>
+                <td class="dataset-details">{{pkg_dict.en_link_to_data }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Organization ID</th>
+                <td class="dataset-details">{{pkg_dict.en_organization_id }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Owner</th>
+                <td class="dataset-details">{{pkg_dict.en_owner }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">PII</th>
+                <td class="dataset-details">{{pkg_dict.en_pii }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Point Of Contact</th>
+                <td class="dataset-details">{{pkg_dict.en_point_of_contact }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Point Of Contact Email</th>
+                <td class="dataset-details">{{pkg_dict.en_point_of_contact_email }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Qualified Name</th>
+                <td class="dataset-details">{{pkg_dict.en_qualified_name }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Replicated From</th>
+                <td class="dataset-details">{{pkg_dict.en_replicated_from }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Replicated To</th>
+                <td class="dataset-details">{{pkg_dict.en_replicated_to }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Sensitivity Level</th>
+                <td class="dataset-details">{{pkg_dict.en_sensitivity_level }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Start Date</th>
+                <td class="dataset-details">{{pkg_dict.en_start_date }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Status</th>
+                <td class="dataset-details">{{pkg_dict.en_status }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Technical Name</th>
+                <td class="dataset-details">{{pkg_dict.en_technical_name }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">UniteApps ID</th>
+                <td class="dataset-details">{{pkg_dict.en_uniteapps_id }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Updated By</th>
+                <td class="dataset-details">{{pkg_dict.en_updated_by }}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Updated On</th>
+                <td class="dataset-details">{{pkg_dict.en_updated_on }}</td>
+
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">User Description</th>
+                <td class="dataset-details">{{pkg_dict.en_user_description }}</td>
             </tr>
             {% endif %}
             {% if request.environ.CKAN_LANG == 'fr'%}
@@ -91,6 +196,114 @@
                 <th scope="row" class="dataset-label">Mainteneur Email</th>
                 <td class="dataset-details">{{pkg_dict.fr_maintainer_email}}</td>
             </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Date de clôture</th>
+                <td class="dataset-details">{{pkg_dict.fr_close_date}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Système de gestion de base de données</th>
+                <td class="dataset-details">{{pkg_dict.fr_database_management_system}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Propriétaire du jeu de données</th>
+                <td class="dataset-details">{{pkg_dict.fr_dataset_owner}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Nom d'affichage</th>
+                <td class="dataset-details">{{pkg_dict.fr_display_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Entité</th>
+                <td class="dataset-details">{{pkg_dict.fr_entity}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Identifiant de l'entité</th>
+                <td class="dataset-details">{{pkg_dict.fr_entity_id}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Fréquence</th>
+                <td class="dataset-details">{{pkg_dict.fr_frequency}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Fonction</th>
+                <td class="dataset-details">{{pkg_dict.fr_function}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Langue</th>
+                <td class="dataset-details">{{pkg_dict.fr_language}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Lien vers les données</th>
+                <td class="dataset-details">{{pkg_dict.fr_link_to_data}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Identifiant de l'organisation</th>
+                <td class="dataset-details">{{pkg_dict.fr_organization_id}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Propriétaire</th>
+                <td class="dataset-details">{{pkg_dict.fr_owner}}</td>
+            </tr>
+
+            <tr>
+                <th scope="row" class="dataset-label">PII</th>
+                <td class="dataset-details">{{pkg_dict.fr_pii}}</td>
+            </tr>
+
+            <tr>
+                <th scope="row" class="dataset-label">Point de contact</th>
+                <td class="dataset-details">{{pkg_dict.fr_point_of_contact}}</td>
+            </tr>
+             
+            <tr>
+                <th scope="row" class="dataset-label">Point de contact Email</th>
+                <td class="dataset-details">{{pkg_dict.fr_point_of_contact_email}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Nom qualifié</th>
+                <td class="dataset-details">{{pkg_dict.fr_qualified_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Replicated From</th>
+                <td class="dataset-details">{{pkg_dict.fr_replicated_from}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Replicated To</th>
+                <td class="dataset-details">{{pkg_dict.fr_replicated_to}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Niveau de sensibilité</th>
+                <td class="dataset-details">{{pkg_dict.fr_sensitivity_level}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Date de début</th>
+                <td class="dataset-details">{{pkg_dict.fr_start_date}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Statut</th>
+                <td class="dataset-details">{{pkg_dict.fr_status}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Nom technique</th>
+                <td class="dataset-details">{{pkg_dict.fr_technical_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">UniteApps_ID</th>
+                <td class="dataset-details">{{pkg_dict.fr_uniteapps_id}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Mis à jour par</th>
+                <td class="dataset-details">{{pkg_dict.fr_updated_by}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Mis à jour le</th>
+                <td class="dataset-details">{{pkg_dict.fr_updated_on}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Description de l'utilisateur</th>
+                <td class="dataset-details">{{pkg_dict.fr_user_description}}</td>
+            </tr>
+
             {% endif %}
 
             {% if request.environ.CKAN_LANG == 'ar'%}
@@ -134,6 +347,87 @@
                 <th scope="row" class="dataset-label">بريد المشرف</th>
                 <td class="dataset-details">{{pkg_dict.ar_maintainer_email}}</td>
             </tr>
+
+            <tr>
+                <th scope="row" class="dataset-label">تاريخ الإغلاق</th>
+                <td class="dataset-details">{{pkg_dict.ar_close_date}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">نظام إدارة قاعدة البيانات</th>
+                <td class="dataset-details">{{pkg_dict.ar_database_management_system}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">مالك مجموعة البيانات</th>
+                <td class="dataset-details">{{pkg_dict.ar_dataset_owner}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">اسم العرض</th>
+                <td class="dataset-details">{{pkg_dict.ar_display_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">كيان</th>
+                <td class="dataset-details">{{pkg_dict.ar_entity}}</td>
+            </tr>
+
+            <tr>
+                <th scope="row" class="dataset-label">معرف الكيان</th>
+                <td class="dataset-details">{{pkg_dict.ar_entity_id}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">تكرار من</th>
+                <td class="dataset-details">{{pkg_dict.ar_replicated_from}}</td>
+            </tr>
+
+            <tr>
+                <th scope="row" class="dataset-label">تكرار إلى</th>
+                <td class="dataset-details">{{pkg_dict.ar_replicated_to}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">مستوى الحساسية</th>
+                <td class="dataset-details">{{pkg_dict.ar_sensitivity_level}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">تاريخ البدء</th>
+                <td class="dataset-details">{{pkg_dict.ar_start_date}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">الحالة</th>
+                <td class="dataset-details">{{pkg_dict.ar_status}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">الاسم الفني</th>
+                <td class="dataset-details">{{pkg_dict.ar_technical_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">معرف UniteApps</th>
+                <td class="dataset-details">{{pkg_dict.ar_uniteapps_id}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">تم التحديث بواسطة</th>
+                <td class="dataset-details">{{pkg_dict.ar_updated_by}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">تم التحديث في</th>
+                <td class="dataset-details">{{pkg_dict.ar_updated_on}}</td>
+            </tr>
+
+            <tr>
+                <th scope="row" class="dataset-label">وصف المستخدم</th>
+                <td class="dataset-details">{{pkg_dict.ar_user_description}}</td>
+            </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
             {% endif %}
 
 
@@ -188,7 +482,125 @@
                 <th scope="row" class="dataset-label">Mantenedor Email</th>
                 <td class="dataset-details">{{pkg_dict.es_maintainer_email}}</td>
             </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Fecha de cierre</th>
+                <td class="dataset-details">{{pkg_dict.es_close_date}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Sistema de gestión de bases de datos</th>
+                <td class="dataset-details">{{pkg_dict.es_database_management_system}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Propietario del conjunto de datos</th>
+                <td class="dataset-details">{{pkg_dict.es_dataset_owner}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Nombre para mostrar</th>
+                <td class="dataset-details">{{pkg_dict.es_display_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Entidad</th>
+                <td class="dataset-details">{{pkg_dict.es_entity}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Identificación de la entidad</th>
+                <td class="dataset-details">{{pkg_dict.es_entity_id}}</td>
+            </tr>
+
+            <tr>
+                <th scope="row" class="dataset-label">Frecuencia</th>
+                <td class="dataset-details">{{pkg_dict.es_frequency}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Función</th>
+                <td class="dataset-details">{{pkg_dict.es_function}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Idioma</th>
+                <td class="dataset-details">{{pkg_dict.es_language}}</td>
+
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Enlace a datos</th>
+                <td class="dataset-details">{{pkg_dict.es_link_to_data}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Identificación de la organización</th>
+                <td class="dataset-details">{{pkg_dict.es_organization_id}}</td>
+            </tr>
+
+            <tr>
+                <th scope="row" class="dataset-label">Propietario</th>
+                <td class="dataset-details">{{pkg_dict.es_owner}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">PII</th>
+                <td class="dataset-details">{{pkg_dict.es_pii}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Punto de contacto</th>
+                <td class="dataset-details">{{pkg_dict.es_point_of_contact}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Punto de contacto Email</th>
+                <td class="dataset-details">{{pkg_dict.es_point_of_contact_email}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Nombre calificado</th>
+                <td class="dataset-details">{{pkg_dict.es_qualified_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Replicado desde</th>
+                <td class="dataset-details">{{pkg_dict.es_replicated_from}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Replicado a</th>
+                <td class="dataset-details">{{pkg_dict.es_replicated_to}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Nivel de sensibilidad</th>
+                <td class="dataset-details">{{pkg_dict.es_sensitivity_level}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Fecha de inicio</th>
+                <td class="dataset-details">{{pkg_dict.es_start_date}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Estado</th>
+                <td class="dataset-details">{{pkg_dict.es_status}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Nombre técnico</th>
+                <td class="dataset-details">{{pkg_dict.es_technical_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">UniteApps_ID</th>
+                <td class="dataset-details">{{pkg_dict.es_uniteapps_id}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Actualizado por</th>
+                <td class="dataset-details">{{pkg_dict.es_updated_by}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Actualizado en</th>
+                <td class="dataset-details">{{pkg_dict.es_updated_on}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Descripción del usuario</th>
+                <td class="dataset-details">{{pkg_dict.es_user_description}}</td>
+            </tr>
+
+            
+
+
+
+
+
+
+
+
             {% endif %}
+
 
             {% if request.environ.CKAN_LANG == 'ru'%}
             <tr>
@@ -231,6 +643,118 @@
                 <th scope="row" class="dataset-label">сопровождающий Электронная почта</th>
                 <td class="dataset-details">{{pkg_dict.ru_maintainer_email}}</td>
             </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Дата закрытия</th>
+                <td class="dataset-details">{{pkg_dict.ru_close_date}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Система управления базами данных</th>
+                <td class="dataset-details">{{pkg_dict.ru_database_management_system}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Владелец набора данных</th>
+                <td class="dataset-details">{{pkg_dict.ru_dataset_owner}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Отображаемое имя</th>
+                <td class="dataset-details">{{pkg_dict.ru_display_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Сущность</th>
+                <td class="dataset-details">{{pkg_dict.ru_entity}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Идентификатор сущности</th>
+                <td class="dataset-details">{{pkg_dict.ru_entity_id}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Частота</th>
+                <td class="dataset-details">{{pkg_dict.ru_frequency}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Функция</th>
+                <td class="dataset-details">{{pkg_dict.ru_function}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Язык</th>
+                <td class="dataset-details">{{pkg_dict.ru_language}}</td>
+            </tr>
+
+            <tr>
+                <th scope="row" class="dataset-label">Ссылка на данные</th>
+                <td class="dataset-details">{{pkg_dict.ru_link_to_data}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Идентификатор организации</th>
+                <td class="dataset-details">{{pkg_dict.ru_organization_id}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Владелец</th>
+                <td class="dataset-details">{{pkg_dict.ru_owner}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">PII</th>
+                <td class="dataset-details">{{pkg_dict.ru_pii}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Контактная точка</th>
+                <td class="dataset-details">{{pkg_dict.ru_point_of_contact}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Контактная точка Электронная почта</th>
+                <td class="dataset-details">{{pkg_dict.ru_point_of_contact_email}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Квалифицированное имя</th>
+                <td class="dataset-details">{{pkg_dict.ru_qualified_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Реплицировано из</th>
+                <td class="dataset-details">{{pkg_dict.ru_replicated_from}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Реплицировано в</th>
+                <td class="dataset-details">{{pkg_dict.ru_replicated_to}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Уровень чувствительности</th>
+                <td class="dataset-details">{{pkg_dict.ru_sensitivity_level}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Дата начала</th>
+                <td class="dataset-details">{{pkg_dict.ru_start_date}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Статус</th>
+                <td class="dataset-details">{{pkg_dict.ru_status}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Техническое имя</th>
+                <td class="dataset-details">{{pkg_dict.ru_technical_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">UniteApps_ID</th>
+                <td class="dataset-details">{{pkg_dict.ru_uniteapps_id}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Обновлено</th>
+                <td class="dataset-details">{{pkg_dict.ru_updated_by}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Обновлено на</th>
+                <td class="dataset-details">{{pkg_dict.ru_updated_on}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">Описание пользователя</th>
+                <td class="dataset-details">{{pkg_dict.ru_user_description}}</td>
+
+
+
+
+
+
+
+
             {% endif %}
 
 
@@ -283,6 +807,121 @@
                 <th scope="row" class="dataset-label">维护者邮箱</th>
                 <td class="dataset-details">{{pkg_dict.zh_maintainer_email}}</td>
             </tr>
+            <tr>
+                <th scope="row" class="dataset-label">关闭日期</th>
+                <td class="dataset-details">{{pkg_dict.zh_close_date}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">数据库管理系统</th>
+                <td class="dataset-details">{{pkg_dict.zh_database_management_system}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">数据集所有者</th>
+                <td class="dataset-details">{{pkg_dict.zh_dataset_owner}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">显示名称</th>
+                <td class="dataset-details">{{pkg_dict.zh_display_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">实体</th>
+                <td class="dataset-details">{{pkg_dict.zh_entity}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">实体ID</th>
+                <td class="dataset-details">{{pkg_dict.zh_entity_id}}</td>
+
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">频率</th>
+                <td class="dataset-details">{{pkg_dict.zh_frequency}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">功能</th>
+                <td class="dataset-details">{{pkg_dict.zh_function}}</td>
+            </tr>
+
+            <tr>
+                <th scope="row" class="dataset-label">语言</th>
+                <td class="dataset-details">{{pkg_dict.zh_language}}</td>
+            </tr>
+
+            <tr>
+                <th scope="row" class="dataset-label">链接到数据</th>
+                <td class="dataset-details">{{pkg_dict.zh_link_to_data}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">组织ID</th>
+                <td class="dataset-details">{{pkg_dict.zh_organization_id}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">所有者</th>
+                <td class="dataset-details">{{pkg_dict.zh_owner}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">PII</th>
+                <td class="dataset-details">{{pkg_dict.zh_pii}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">联系人</th>
+                <td class="dataset-details">{{pkg_dict.zh_point_of_contact}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">联系人邮箱</th>
+                <td class="dataset-details">{{pkg_dict.zh_point_of_contact_email}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">合格名称</th>
+                <td class="dataset-details">{{pkg_dict.zh_qualified_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">复制自</th>
+                <td class="dataset-details">{{pkg_dict.zh_replicated_from}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">复制到</th>
+                <td class="dataset-details">{{pkg_dict.zh_replicated_to}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">敏感级别</th>
+                <td class="dataset-details">{{pkg_dict.zh_sensitivity_level}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">开始日期</th>
+                <td class="dataset-details">{{pkg_dict.zh_start_date}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">状态</th>
+                <td class="dataset-details">{{pkg_dict.zh_status}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">技术名称</th>
+                <td class="dataset-details">{{pkg_dict.zh_technical_name}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">UniteApps_ID</th>
+                <td class="dataset-details">{{pkg_dict.zh_uniteapps_id}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">更新者</th>
+                <td class="dataset-details">{{pkg_dict.zh_updated_by}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">更新于</th>
+                <td class="dataset-details">{{pkg_dict.zh_updated_on}}</td>
+            </tr>
+            <tr>
+                <th scope="row" class="dataset-label">用户描述</th>
+                <td class="dataset-details">{{pkg_dict.zh_user_description}}</td>
+            </tr>
+
+
+
+
+
+
+
+
             {% endif %}
 
 
